@@ -1,0 +1,41 @@
+#footer {
+    padding: 20px 0 30px;
+    background: #292929;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-description {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #F2F2F2;
+    margin-top: 25px;
+}
+
+.footer-contact {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F2F2F2;
+}
+
+.footer-contact i {
+    color: #3298F2;
+}
+
+.contact-item {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.contact-item span {
+    position: absolute;
+    left: -25px;
+}

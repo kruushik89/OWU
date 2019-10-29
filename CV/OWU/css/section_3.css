@@ -1,0 +1,83 @@
+#section-three {
+    position: relative;
+    background: #EDF4FB;
+    padding: 80px 0 130px;
+}
+
+.section-three-image {
+    position: absolute;
+    top: -222px;
+}
+
+.section-three-title-1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-three-title-2 h2{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF9638;
+}
+
+.section-three-title-text {
+    width: 58%;
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #474747;
+    /*margin-bottom: 55px;*/
+}
+
+.section-three-content {
+    display: flex;
+    width: 100%;
+
+}
+
+.section-three-slider {
+    width: 300px;
+    height: 300px;
+}
+
+.section-three-brand {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+    justify-content: space-evenly;
+}
+
+.img-brand {
+    height: 50px;
+}
+
+.one, .two, .three {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+ol.carousel-indicators {
+    bottom: -25px;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 15px;
+    height: 0;
+    background: rgba(50, 152, 242, 0.33);;
+}
+
+.carousel-indicators .active {
+    background: #46ABE3;
+    border: 3px solid #000000;
+    height: 15px;
+}

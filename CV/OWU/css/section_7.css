@@ -1,0 +1,93 @@
+
+.c-blue {
+    color: #3298F2;;
+}
+.sec-seven-header {
+    background-color: #FF9638;
+    padding: 35px 0 20px;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.sec-seven-header-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sec-seven-header-image {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    margin-left: -35%;
+}
+
+.sec-seven-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sec-seven-content-item {
+    flex-basis: 25%;
+    align-self: center;
+    position: relative;
+}
+
+.seven-item-number {
+    font-weight: 900;
+    font-size: 200px;
+    position: absolute;
+    color: #DCDCDC;
+}
+
+.num-1,.num-2 , .num-5 {
+    top: -70px;
+    left: -20px;
+}
+
+.num-3, .num-4 {
+    top: -122px;
+    right: -20px;
+}
+
+.seven-item-title h3 {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #292929;
+    position: relative;
+}
+
+.seven-item-text p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    position: relative;
+}
+
+.sec-seven-content-image {
+    margin-bottom: 50px;
+}
+
+.section-seven-image {
+    position: absolute;
+    top: -44px;
+    right: 0;
+}
+
+.section-seven-image-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

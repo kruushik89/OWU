@@ -1,0 +1,86 @@
+.body-modal {
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-contain {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.window-modal {
+    width: 575px;
+    padding: 45px 0 65px;
+    background: #292929;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    margin-left: -287px;
+}
+
+.modal-title h2 {
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.forms input:hover {
+    border-bottom: 1px solid #FF9638;
+}
+
+.forms input:active {
+    border-bottom: 1px solid #FF9638;
+    color: #FF9638;
+}
+
+.modal-btn button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #292929;
+    width: 100%;
+    background: #FFE200;
+    border: 2px solid #FFE200;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.close-image {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

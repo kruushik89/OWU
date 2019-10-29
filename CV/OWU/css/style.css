@@ -1,0 +1,222 @@
+@import url('reset.css');
+@import url('main.css');
+@import url('section_2.css');
+@import url('section_3.css');
+@import url('section_4.css');
+@import url('section_5.css');
+@import url('section_6.css');
+@import url('section_7.css');
+@import url('section_8.css');
+@import url('section_9.css');
+@import url('section_10.css');
+@import url('footer.css');
+@import url('gamburger_menu.css');
+@import url('modal.css');
+@import url('mobile-menu.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700,700i,800,800i,900|Playfair+Display&display=swap');
+
+.d-flex {
+    display: flex;
+}
+
+button {
+    border: none;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-title-2, .content-title-1 {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.title-1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FF9638;
+}
+
+.title-2 h2{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+.c-3298F2 {
+    color: #3298F2;
+}
+
+.header-top {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-logo-img {
+    flex-basis: 20%;
+}
+.header-logo-img img {
+    width: 100%;
+}
+
+.header-menu-content {
+    display: flex;
+    flex-basis: 65%;
+    justify-content: space-around;
+}
+
+.header-menu {
+    width: 550px;
+}
+
+nav ul {
+    height: 100%;
+}
+
+.header-menu ul {
+    align-items: center;
+}
+
+nav ul a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+.header-callback{
+    width: 235px;
+}
+
+.header-callback button{
+    width: 100%;
+    background: #F9F9F9;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 0;
+    color: #3298F2;
+    border: 2px solid #3298F2;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.header-content-course {
+    background: #EDF4FB;
+    padding: 70px 20px 70px 180px;
+    width: 60%;
+}
+
+.content-title-1 {
+    font-weight: 900;
+    font-size: 60px;
+    position: relative;
+}
+
+.content-title-1 span {
+    font-size: 21px;
+    position: absolute;
+    line-height: 25px;
+    top: 20px;
+    left: 115px;
+    width: 150px;
+}
+
+.content-title-2 h1 {
+    font-weight: 900;
+    font-size: 28px;
+    color: #FF9638;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.content-title-2 p {
+    font-weight: 900;
+    font-size: 21px;
+    color: #292929;
+}
+
+.header-content-text {
+    width: 530px;
+    color: #333333;
+    font-weight: 300;
+    font-size: 14px;
+    border: 3px dotted #DCDCDC;
+    padding: 15px 0 15px 20px;
+}
+
+.header-content-text p:nth-child(2) {
+    font-weight: bold;
+}
+.header-content-info {
+    width: 40%;
+    position: relative;
+    background-color: #3298F2;
+}
+
+.header-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-right: 130px;
+}
+
+.info-content {
+    width: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-content-text {
+    text-align: center;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #F4F4F4;
+    letter-spacing: 1px;
+}
+
+.info-content-number {
+    width: 75px;
+    height: 75px;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.4);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 21px;
+    color: #FF9638;
+    margin-bottom: 8px;
+}
+
+.header-info-img {
+    position: absolute;
+    bottom: 0;
+    left: -70px;
+}
+
+.header-info-img img {
+    width: 350px;
+}
+
+

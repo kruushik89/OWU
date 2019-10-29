@@ -1,0 +1,153 @@
+#section-five {
+    background: #E5E5E5;
+    position: relative;
+}
+
+.down-image {
+    position: absolute;
+    top: 227px;
+}
+
+.section-five {
+    padding: 50px 0 100px;
+    background-color: #000000;
+    opacity: .8;
+}
+
+.section-five-content {
+    display: flex;
+}
+
+.hours-image {
+    margin-top: 170px;
+}
+
+.five-title-1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.five-title-2 h2 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #3298F2;
+}
+
+.hours-text {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.hours-text span {
+    color: #3298F2;;
+}
+
+.list {
+    margin-left: 50px;
+}
+
+.list-inner {
+    display: flex;
+    position: relative;
+}
+
+.list-item {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    position: relative;
+    width: 145px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.list-number {
+    color: rgba(255, 255, 255, 0.08);
+    transform: rotate(-90deg);
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    position: absolute;
+    left: -35px;
+    top: 5px;
+}
+
+
+.item-list-content {
+    width: 500px;
+    margin-left: 40px;
+    display: none;
+}
+
+.list-content {
+    border: 1px solid #A7A7A7;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.list-content:hover {
+    border: 1px solid #F48120;
+}
+
+
+.list-content-title h4 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.list-content-text {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    display: none;
+    color: #FFFFFF;
+}
+
+.red {
+    color: red;
+}
+
+.display-block {
+    display: block;
+}
+
+.xxx {
+    border-color: #F48120;
+}
+
+.activ {
+    color: #F48120;
+}
+
+.section-five-image {
+    position: absolute;
+    bottom: 73px;
+    left: 0;
+}
+
+.list-mobile {
+    display: none;
+}
+.desctop-list {
+    display: flex;
+}
+
+
+

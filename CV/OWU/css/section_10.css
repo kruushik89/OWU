@@ -1,0 +1,47 @@
+#section-ten {
+    background: #FF9638;
+    padding: 80px 0 60px;
+    position: relative;
+}
+
+.section-ten {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-ten-content {
+    width: 635px;
+}
+
+.section-ten-btn button {
+    width: 370px;
+    background: #FFCF15;
+    border-radius: 5px;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #292929;
+}
+
+.section-ten-title h2{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+}
+
+.section-ten-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.rec-image {
+    position: absolute;
+    top: -32px;
+    right: 0;
+}

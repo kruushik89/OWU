@@ -1,0 +1,133 @@
+#section-nine {
+    background: #EDF4FB;
+    padding: 90px 0 125px;
+}
+
+.title-nine-1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #292929;
+}
+.title-nine-2 h2 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FF9638;
+}
+
+.section-nine-item {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 10px 10px 0 0;
+    padding: 60px 30px 50px;
+}
+
+.item-nine-form {
+    margin-bottom: 45px;
+}
+
+.item-nine-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-nine-form form input {
+    margin-bottom: 10px;
+    border: 1px solid #EDF4FB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #787878;
+    padding: 5px 0 5px 15px;
+}
+
+.item-nine-title-1 {
+    width: 250px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #474747;
+    background: #ADD6FA;
+    border-radius: 6px;
+    padding: 20px 0;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -125px;
+}
+
+.item-nine-title-2 {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF9638;
+}
+
+.item-nine-description {
+    width: 85%;
+    margin-bottom: 25px;
+}
+
+.nine-description {
+    display: flex;
+    justify-content: space-between;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.nine-count {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF9638;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.nine-btn button {
+    width: 250px;
+    background: #3298F2;
+    border-radius: 6px;
+    padding: 12px 0 9px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #F2F2F2;
+    position: relative;
+    left: 50%;
+    margin-left: -125px;
+}
+
+.nine-btn button span {
+    font-weight: 900;
+    font-size: 16px;
+    color: #F2F2F2;
+}
+
+.section-nine-item-footer {
+    padding: 16px 0 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #474747;
+    background: rgba(50, 152, 242, 0.24);
+    border-radius: 0 0 10px 10px;
+}
+
+.section-nine-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 40px;
+}

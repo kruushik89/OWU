@@ -1,0 +1,60 @@
+#java-complex {
+    padding: 190px 0 150px;
+    position: relative;
+}
+
+.java-title-1 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 120px;
+    text-transform: uppercase;
+    color: #EDF4FB;
+    top: -18px;
+    left: 0;
+}
+
+.java-title-2 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 144px;
+    text-transform: uppercase;
+    color: #EDF4FB;
+    right: 57px;
+    top: 122px;
+}
+
+.java-complex-title {
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.java-complex-list-title h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.list-style {
+    width: 18px;
+    height: 18px;
+    background: #FF9638;
+    border: 3px solid #292929;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 3px;
+}
+.java-complex-content-image{
+    flex-basis: 30%;
+}
+
+.java-complex-list {
+    flex-basis: 53%;
+}
+.java-complex-list-item {
+    position: relative;
+}
+

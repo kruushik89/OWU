@@ -1,0 +1,69 @@
+#section-six {
+    padding: 150px 0;
+    position: relative;
+}
+
+.sec-six-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.six-content-title-name h4{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3298F2;
+}
+
+.six-title-2 {
+    z-index: 1;
+    margin-bottom: 65px;
+    position: relative;
+}
+
+.sec-six-content-2 {
+    width: 45%;
+    align-self: flex-end;
+    position: relative;
+}
+
+.six-content-text-1 {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.six-title-2 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FF9638;
+}
+
+.six-text-2 p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.title-image-left {
+    position: absolute;
+    left: -60px;
+    top: -30px;
+}
+
+.title-image-right {
+    position: absolute;
+    right: 75px;
+    top: 60px;
+}
+
+.section-six-image {
+    position: absolute;
+    top: -67px;
+    left: 15%;
+}
