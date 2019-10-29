@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+body{
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 18px;
+    color: #555;
+}
+
+.width_40per{
+    width: 40%
+}
+
+.margin_0_auto{
+    margin: 0 auto
+}
+
+.margin-top_2per{
+    margin-top: 2%
+}
+
+.margin-top_3per{
+    margin-top: 3%
+}
+
+.margin-top_5per{
+    margin-top: 5%
+}
+
+.margin-top_10per{
+    margin-top: 10%
+}
+
+.margin-top_30per{
+    margin-top: 30%
+}
+
+.margin-bottom_5per{
+    margin-bottom: 5%
+}
+
+.margin-bottom_40per{
+    margin-bottom: 40%
+}
+
+.font-size_12px{
+    font-size: 12px
+}
+
+.font-size_18px{
+    font-size: 18px
+}
+
+.font-size_23px{
+    font-size: 23px
+}
+
+.font-size_60px{
+    font-size: 60px
+}
+
+.font-size_4rem{
+    font-size: 4rem
+}
+
+.font-size_5rem{
+    font-size: 5rem
+}
+
+.color_white{
+    color: white
+}
+
+.color_3498db{
+     color:#3498db
+}
+
+.color_818892{
+    color: #818892
+}
+
+.text-center{
+    text-align: center
+}
+
+.background_F5F5F5{
+    background: #F5F5F5
+}
+
+.background_black{
+    background: #2b2b2b
+}
+
+.border-radius{
+    border-radius: 50%
+}
+
+.border-bottom{
+    border-bottom: 2px solid #818892;
+    width: 520px;
+    margin-top: 2%;
+}
+
+.border-left{
+    border-left: 1px solid white;
+    margin-left: 1.5%;
+    margin-right: 1.5%
+}
+
+.padding_2per{
+    padding: 2% 0
+}
+
+.padding_3per{
+    padding: 3% 0
+}
+
+.padding_5per{
+    padding: 5% 0
+}
+
+.padding_10per{
+    padding: 10% 0
+}
+
+header{
+    background-image: url(header_bg.jpg);
+    padding: 6% 0 0%;
+    background-size: cover;
+    position: relative;
+    background-position: 0 61%
+}
+
+.navbar{
+    margin-bottom: 0
+}
+
+#sub-header{
+    padding: 3% 0 5%;
+    background: #F5F5F5
+}
+
+#about{
+    border-top: 1px solid #818892;
+    padding: 3% 0 5%
+}
+
+#design{
+    background-image: url(divider1.jpg);
+    padding: 3% 0;
+    background-size: 1520px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center
+}
+
+#design-is{
+    background-image: url(divider2.jpg);
+    background-size: 1520px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center
+}
+
+#team a:hover{
+    color: #a4003a
+}
+
+#design-solve{
+    background-image: url(divider3.jpg);
+    background-size: 1520px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center
+}
+
+#design-creates{
+    background-image: url(divider4.jpg);
+    background-size: 1520px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center
+}
+
+#sup-footer{
+    background-image: url(divider6.jpg);
+    background-size: 1520px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

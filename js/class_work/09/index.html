@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+//    DOM  Document Object Model
+
+document
+    html
+        head
+            meta
+            title
+        body
+            script
+    
+<!--<div id="d1">d11</div>-->
+<!--<div id="d1">d12</div>-->
+<!--<div id="d2">d2</div>-->
+<!--<p class="p1">p11</p>-->
+<!--<p class="p1">p12</p>-->
+<!--<p class="p2">p2</p>-->
+
+    <div class="wrap">
+        <h3>javaScript</h3>
+        <img src="asd" alt="">
+    </div>
+
+
+<div class="wrap">
+    <h3>html</h3>
+    <img src="asd" alt="">
+</div>
+
+
+<div class="wrap">
+    <h3>css</h3>
+    <img src="asd" alt="">
+</div>
+
+<div class="wrap">
+    <h3>java</h3>
+    <img src="asd" alt="">
+</div>
+
+
+
+
+
+
+<script>
+    // отримали всі теги з класом врап
+    var wraps = document.querySelectorAll('.wrap');
+//    console.log(wraps);
+    // проходимо по них циклом
+    for (var i = 0; i < wraps.length; i++) {
+        //кожен елемент вкладаємо в окрему змінну
+        var wrap = wraps[i];
+//        console.log(wrap.children);
+        // отримуємо дочірні(елементи які лежать в  середені нашого врап) елементи, кожного нашого елементу врап
+        var children = wrap.children;
+        //беремо перший дочірній елемент
+        var h3 = children[0];
+        //витягаємо з нього текст
+        var h3Text = h3.innerText;
+//        console.log(h3Text);
+        //беремо другий дочірній елемент
+        var img = children[1];
+        // в його атрибут альт вставляємо значення, яке дорівнює тексту першого елемента
+        img.setAttribute('alt', "this is " + h3Text);
+    }
+
+
+
+
+
+
+
+
+
+
+
+    //    var pet = {
+//        name : 'fluffy',
+//        age : 38
+//        
+//    }; 
+//    console.log(pet.age);
+//
+//    console.log(document);
+//    console.log(document.documentElement);
+//    console.log(document.head);
+//    console.log(document.body);
+//    var d1 = document.getElementById('d1');
+//    console.log(d1);
+//    var divsByTag = document.getElementsByTagName('div');
+//    console.log(divsByTag);
+//    var psClass = document.getElementsByClassName('p1');
+//    console.log(psClass);
+//    d1.style.background = 'red';
+//    d1.style.height= '200px';
+//    d1.style.width = '200px';
+
+
+    var h1 = document.createElement("h1");//створення елементу
+    h1.innerHTML = '<a href="#">hello</a>';
+    h1.style.background = "yellow";
+    h1.style.height = "50px";
+    document.body.appendChild(h1);
+    document.body.appendChild(h1.cloneNode(true));
+    var attributeValue = h1.getAttribute('href');
+    console.log(attributeValue);
+
+
+    var box = document.createElement('box');
+    box.style.background = "yellow";
+    box.style.width = "800px";
+    box.setAttribute('class', 'wraps');
+    var cart = document.createElement('cart');
+    cart.setAttribute('src', 'img1.png');
+    box.appendChild(cart);
+    var par = document.createElement('par');
+    par.innerText = 'ok';
+    par.style.color = 'red'
+    box.appendChild(par);
+    document.body.appendChild(box);
+
+</script>
+</body>
+</html>

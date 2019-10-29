@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+body{
+    font-size: 16px
+}
+
+.main-nav {
+    border-bottom: 2px solid #8db863;
+    background: #fff;
+}
+
+.main-nav:after {
+    clear: both;
+    content: "\00a0";
+    display: block;
+    height: 0;
+    font: 0px/0 serif;
+    overflow: hidden;
+}
+
+.nav-brand {
+    float: left;
+    margin: 0;
+}
+
+.nav-brand a {
+    display: block;
+    padding: 11px 11px 11px 20px;
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+#main-menu {
+    clear: both;
+    border-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    #main-menu {
+        float: right;
+        clear: none;
+    }
+}
+
+
+/* Mobile menu toggle button */
+
+.main-menu-btn {
+    float: right;
+    margin: 5px 10px;
+    position: relative;
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    text-indent: 29px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* hamburger icon */
+
+.main-menu-btn-icon,
+.main-menu-btn-icon:before,
+.main-menu-btn-icon:after {
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    height: 2px;
+    width: 24px;
+    background: #333;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.main-menu-btn-icon:before {
+    content: '';
+    top: -7px;
+    left: 0;
+}
+
+.main-menu-btn-icon:after {
+    content: '';
+    top: 7px;
+    left: 0;
+}
+
+
+/* x icon */
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon {
+    height: 0;
+    background: transparent;
+}
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:before {
+    top: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:after {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* hide menu state checkbox (keep it visible to screen readers) */
+
+#main-menu-state {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+/* hide the menu in mobile view */
+
+#main-menu-state:not(:checked) ~ #main-menu {
+    display: none;
+}
+
+#main-menu-state:checked ~ #main-menu {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    /* hide the button in desktop view */
+    .main-menu-btn {
+        position: absolute;
+        top: -99999px;
+    }
+    /* always show the menu in desktop view */
+    #main-menu-state:not(:checked) ~ #main-menu {
+        display: block;
+    }
+}
+
+
+/* IGNORE: Unrelated generic demo styles */
+
+body {
+    margin: 8px;
+    background: #fff;
+    color: #aaa;
+    font: 16px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.demo-text {
+    margin: 3em 22px;
+}
+
+.demo-text p {
+    margin-bottom: 1em;
+}
+
+.demo-text a {
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link{
+    text-decoration: none;
+}
+a{
+    color: #664f4c
+}
+
+li{
+    list-style: none
+}
+
+header{
+    background-image: url(Victoriya-Rudko1.jpg);
+    position: relative;
+    top: 0;
+    left: 0;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5%
+}
+
+.header-phone{
+    width: 15%;
+    font-size: 18px;
+    text-shadow: 0px 3px 4px;
+    margin-top: 5%
+}
+
+header li{
+    display: inline
+}
+
+header a{
+    color: white
+}
+
+header a:hover{
+    color: white
+}
+
+header h1{
+    color: #211f1c;
+    font-size: 48px;
+    line-height: 48px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    text-align: right
+}
+
+header .btn-default{
+    border-radius: 0;
+    margin-left: 72%;
+    font-size: 18px;
+    color: #bbcdd9;
+    padding: 5px 50px;
+    border: #bbcdd9 2px solid
+}
+
+header .btn-default:hover{
+    background: gold
+}
+
+
+
+.width_45per{
+    width: 45%
+}
+
+
+.width_70per{
+    width: 70%
+}
+
+.width_1025px{
+    width: 1025px
+}
+
+.margin_0_auto{
+    margin: 0 auto
+}
+
+.margin_10_0{
+    margin: 10% 0
+}
+
+.margin-top_3per{
+    margin-top: 3%
+}
+
+.margin-top_5per{
+    margin-top: 5%
+}
+
+.margin-top_10per{
+    margin-top: 10%
+}
+
+.margin-top_15per{
+    margin-top: 15%
+}
+
+.margin-left_3per{
+    margin-left: 3%
+}
+
+.margin-left_10per{
+    margin-left: 10%
+}
+
+.margin-left_48per{
+    margin-left: 48%
+}
+
+.margin-bottom_3per{
+    margin-bottom: 3per
+}
+
+.margin-bottom_10per{
+    margin-bottom: 10per
+}
+
+.padding_2_0{
+    padding: 2% 0
+}
+
+.padding_2_5{
+    padding: 2% 5%
+}
+
+.padding_4_0{
+    padding: 4% 0
+}
+
+.padding_bottom_3per{
+    padding-bottom: 3%
+}
+
+.position-relative{
+    position: relative
+}
+
+.color-white{
+    color: white
+}
+
+.color_002e7f{
+    color: #002e7f
+}
+
+.color_black{
+    color: black
+}
+
+.color_bbcdd9{
+    color: #bbcdd9
+}
+
+.background-black{
+    background: black
+}
+
+.background-white{
+    background: white
+}
+
+.background_f6f3f3{
+    background: #f6f3f3
+}
+
+.line-height_26px{
+    line-height: 26px
+}
+
+.text-center{
+    text-align: center
+}
+
+.text-left{
+    text-align: left
+}
+
+.border_top_bottom{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black
+}
+
+.border-radius_50per{
+    border-radius: 50%
+}
+
+.font-size_16px{
+    font-size: 16px
+}
+
+.font-size_40px{
+    font-size: 40px
+}
+
+.float-left{
+    float: left
+}
+
+.clear{
+    clear: both
+}
+
+.papka{
+    width: 45%;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 10px 5px;
+    margin: 0 auto;
+    color: darkgrey
+    
+}
+
+#garantii{
+    padding: 5% 0;
+    background: #252525
+}
+
+#garantii p{
+    line-height: 40px;
+    font-size: 30px;
+    color: #c7a158;
+    font-family: serif, sans-serif, cursive, 'PT Serif'
+}
+
+#garantii .btn-default{
+    background: red;
+    font-size: 25px;
+    color: white;
+    border-color: red;
+    border-radius: 0;
+    padding: 1% 5%;
+    margin-top: 3%
+}
+
+#curs .btn-default{
+    color: #bbcdd9;
+    border-color: #bbcdd9;
+    font-size: 16px;
+    padding: 3% 10%;
+    border-radius: 0;
+    margin-top: 3%
+}
+
+#video{
+    background: #f6f3f3;
+    padding: 3% 0;
+    margin-top: 3%
+}
+
+#victoria{
+    background-image: url(girl.jpg)
+}
+
+#sup-footer{
+    color: #664f4c;
+    padding: 5% 0
+}
+
+#sup-footer h2{
+    font-size: 40px
+}
+
+#sup-footer a{
+    display: block
+}
+
+#sup-footer li{
+    display: inline
+}
+
+#sup-footer .btn-default{
+    background: black;
+    color: white;
+    border-color: black
+}
+
+.fancybox{
+    width: 34%;
+    font-size: 25px;
+    padding: 1% 0%;
+    background: red;
+    margin: 0 auto;
+    color: white;
+    margin-top: 5%
+}
+
+.fancybox:hover{
+    color: #FFFACD
+}
+
+footer{
+    background: black;
+    padding: 5% 0 3%;
+    color: white
+}
+
+.logos li{
+    display: inline;
+    font-size: 20px
+}
+
+.for_us a{
+    font-size: 18px;
+    color: white
+}
+
+.in-text{
+    height: 50px;
+    width: 100%
+}
+
+#back_to_top{
+    color: #cdcdcd;
+    height: auto;
+    position: fixed;
+    bottom: 65px;
+    margin: 0;
+    z-index: 10000;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    right: 25px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: hidden;
+    -webkit-backface-visibility: hidden;
+   
+}
+
+.arrow_up{
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    text-decoration: none;
+    -o-border-radius: 52px;
+    -moz-border-radius: 52px;
+    -webkit-border-radius: 52px;
+    border-radius: 52px;
+    -webkit-transition: all .2s ease 0s;
+    -moz-transition: all .2s ease 0s;
+    -o-transition: all .2s ease 0s;
+    border: 2px solid #e8e8e8;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    /*
+    function asd() {
+        console.log("asd");
+    }
+    asd();
+
+    var a = function (xxx) {
+        console.log("function expression " + xxx);
+    };
+
+    a("qeqwe");
+    console.log(a);
+    var b = 90;
+    //    b();
+
+    (function ss() {
+        console.log("self invoke");
+    }());
+    //    ss();
+
+    function outer(inner) {
+        inner();
+    }
+
+    var c = function () {
+        console.log("this is inner");
+    }
+    outer(c);
+
+    function master(slave) {
+        slave();
+    }
+
+    function slave1() {
+        console.log("cook eat");
+    }
+
+    function slave2() {
+        console.log("wash pants");
+    }
+
+    master(slave1);
+    master(slave2);
+    master(function () {
+        console.log("bring piano");
+        console.log("bring piano");
+        console.log("bring piano");
+    });*/
+
+
+        var rich = [12, 3, 19];
+        function getHalOfRich(mas, callback) {
+            return callback(mas)/2;
+        }
+
+        var count = getHalOfRich(rich, function (xxx) {
+            var beg = xxx[0];
+            for (var i = 0; i < xxx.length; i++) {
+                if (beg < xxx[i]) beg = xxx[i];
+            }
+            return beg;
+        });
+        console.log(count);
+
+    /*function master(slave, piano) {
+        slave(piano);
+    }
+
+    master(function slave(pianino) {
+        console.log("i can breake " + pianino);
+    }, "hopman");
+
+    master(function antoherSlave(pianino) {
+        console.log("i can play " + pianino);
+    }, 'hopman');
+
+    function c(b,a) {
+        b(a);
+    }
+    c(function b(y) {
+        console.log('i can play ' + y);
+    }, 'football');
+    c(function x(y) {
+        console.log('i dont play ' + y);
+    }, 'football');*/
+
+
+
+
+
+    function trainer(player, ball) {
+        player(ball)
+    }
+
+    trainer(function player(a) {
+        console.log('i very good play ' + a);
+    }, 'tenis');
+
+    trainer(function player(b) {
+        console.log('i dont play ' + b);
+    }, 'tenis');
+
+//
+//    function a(b, c) {
+//         b(c)
+//    }
+//
+//    a(function b(x) {
+//        console.log('hello ' + x);
+//    }, 'world')
+//
+//    a(function c(x) {
+//        console.log('buy' + x);
+//    }, ' world')
+
+    function hello(a, b) {
+        return a + b
+    }
+    console.log(hello('hello ', 'world'));
+    console.log(hello(15, 13));
+
+
+//    function yyy(f , r) {
+//        return f + r
+//    }
+//    console.log(yyy(5, 15));
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

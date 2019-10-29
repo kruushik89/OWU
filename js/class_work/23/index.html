@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+<body ng-controller="main">
+{{2+1}}
+
+<input type="text" ng-model="model1">
+<h3>{{model1}}</h3>
+<h4 ng-bind="model1"></h4>
+<hr>
+<p ng-init="a=10;b='asd';obj = {name:'vasya'}">in this tag i done ng-init="a=10"</p>
+<p ng-bind="a"></p>
+<p ng-bind="b"></p>
+<p ng-bind="obj"></p>
+
+<hr>
+
+{{test}}
+<div ng-controller="c1">
+    {{test}}
+
+</div>
+
+
+<input type="text" ng-model="condition">
+
+<label for="">
+    <input type="radio" ng-model="field" value="name">
+</label>
+<label for="">
+    <input type="radio" ng-model="field" value="age">
+</label>
+
+<input type="checkbox" ng-model="ad" >
+<ul>
+    <li ng-repeat="p in people | filter :condition | orderBy : field : ad">
+        {{p.name}} {{p.age}}
+    </li>
+</ul>
+
+
+<script>
+
+    var module = angular.module("MyApp", []);
+    module.controller("c1", function ($scope) {
+        $scope.test = "qweqwe";
+
+    });
+
+    module.controller("main", function ($scope) {
+        $scope.test = "opipoipo";
+
+        $scope.people = [
+            {name: 'vasya', age: 13},
+            {name: 'olya', age: 31},
+            {name: 'koko', age: 20},
+            {name: 'trinity', age: 6},
+            {name: 'max', age: 90},
+            {name: 'qrkfdj', age: 0},
+        ]
+    });
+
+
+</script>
+</body>
+</html>

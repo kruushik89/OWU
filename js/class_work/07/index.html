@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function calculator(a, b) {
+//        console.log(a+b);
+        var c = a + b;
+        return c;
+//    }
+
+    console.log(calculator(10, 20));
+    var x = calculator(100, 90) + 1000;
+    console.log(x);
+    function lenghtCounter(word) {
+
+        var l = word.length;
+        return l;
+    }
+
+    console.log(lenghtCounter("qweqwe"));
+
+    function hello(name) {// опис(сигнатура) методу
+        var greet = name + " hello!";// змінна дорівнює заглушці плюс хелло
+        return greet;// повертаю змінну замість виклику методу
+    }
+
+    console.log(hello("serj")); //виводжу в консоль значення змінної
+
+
+    var mus = [2, 15, 10, 6, 20, 11];
+
+    function billioners(arr) {
+        var a = arr[0];
+        for (var i = 0; i < arr.length; i++) {
+            if (a < arr[i]) {
+                a = arr[i];
+            }
+        }
+        var dividedA = a / 2;
+        return dividedA;
+    }
+    console.log(billioners(mus));
+
+
+    var mus = [2, 3, 4, 1, 5, 6, 7];
+    function millioners(xxx) {
+        var a = xxx[0];
+        for (var i = 0; i < xxx.length; i++) {
+            if (a < xxx[i]) {
+                a = xxx[i]
+            }
+        }
+        var plus = a-2;
+        return plus;
+    }
+    console.log(millioners(mus));
+
+    function divCreator(elementName, color, width, height) {
+
+        var element = document.createElement(elementName);
+        element.style.background = color;
+        element.style.width = width + "px";
+        element.style.height = height + "px";
+        return element;
+    }
+    var p = divCreator("p", "green", 300, 500);
+    document.body.appendChild(p);
+    document.body.appendChild(divCreator("h1", "blue", 100, 100));
+
+</script>
+
+
+</body>
+
+</html>
+

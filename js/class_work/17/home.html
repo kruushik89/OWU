@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home objects</title>
+</head>
+<body>
+
+<script>
+    /*
+    var constructorCar = function (name, width, height, weight, length, color) {
+        this.nameCar = name;
+        this.widthCar = 'ширина ' + width;
+        this.heightCar = height + ' висота авто';
+        this.weightCar = weight + ' вага авто';
+        this.lengthCar = length + ' дліна авто';
+        this.colorCar = color + ' колір авто';
+    }
+
+    var audiCar = new constructorCar('audi', 2, 1.8, 1850, 3.25, 'червоний');
+    var bmwCar = new constructorCar('bmw', 2.2, 2, 2000, 3, 'чорний');
+    var toyotaCar = new constructorCar('toyota', 2.3, 2.5, 2.21, 3.5, 'жовтий');
+    console.log(toyotaCar.nameCar + '; ' + toyotaCar.widthCar + '; ' + toyotaCar.colorCar);
+    console.log(audiCar.nameCar);
+    console.log(audiCar.lengthCar);
+    console.log(audiCar.colorCar);
+    console.log(bmwCar.nameCar);
+    console.log(bmwCar.colorCar);
+    console.log(bmwCar.widthCar);
+    */
+
+
+    var kindOfEnimal = function (kind, name, age, weight, color) {
+        this.kindAnimal = kind;
+        this.nameAnimal = name;
+        this.ageAnimal = age;
+        this.weightAnimal = weight;
+        this.colorAnimal = color;
+    }
+
+    var horseKind = new kindOfEnimal("кінь", "Шустрик", 5, 500, "білий");
+    var dogKind = new kindOfEnimal("пес", "Доля", 4, 3.2, "сіро-оранжовий");
+    var catKind = new kindOfEnimal("кішка", "Міка", 0.7, 3.5, "сіра");
+    alert(catKind.kindAnimal + " " + catKind.nameAnimal + " та її товариш " + dogKind.kindAnimal + " " + dogKind.nameAnimal +
+    " пішли в гості до " + horseKind.kindAnimal + " " + horseKind.nameAnimal )
+
+
+var phone = function (name, model, color, weight, thickness) {
+    this.pnoneName = name;
+    this.pnoneModel = model;
+    this.pnoneColor = color;
+    this.pnoneWeight = weight;
+    this.pnoneThickness = thickness;
+}
+
+    var phoneNokia = new phone("Nokia", 1100, "black", 220, 20);
+    var phoneSamsung = new phone("Samsung", "s6", "gold", 120, 15);
+    var phoneSimens = new phone("Simens", "c65", "grey", 150, 22);
+    alert("i have " + phoneSamsung.pnoneName + " " + phoneSamsung.pnoneModel);
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+        <link href="bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+        <div id="info">
+           <div class="container">
+               <div class="row header-top">
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <span><i class="fa fa-phone" aria-hidden="true"></i>+0123 345 569</span>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 mail">
+                        <a href="#"><span><i class="fa fa-envelope-o" aria-hidden="true"></i>info@example.com</span></a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-1">
+                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </div>
+               </div>
+           </div>
+           <div class="border-top">
+              <div class="navbar navbar-inverse navbar-static-top margin-bottom">
+                   <div class="container">
+                       <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                                <span class="sr-only">Открыть навигацию</span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>   
+                            </button>
+                           
+                               <a href="#">
+                                   <h1 class="color_F25086 font-size_50px">Plottage<span class="margin-left_1per font-size_14px display-block color-white">Real Estate</span></h1>
+                               </a>
+                           
+                       </div>
+                       <div class="collapse navbar-collapse" id="responsive-menu">
+                           <ul class="nav navbar-nav">
+                               <li><a href="#">Home</a></li>
+                               <li><a href="#">Services</a></li>
+                               <li><a href="#">Gallery</a></li>
+                               <li><a href="#">Short Codes</a></li>
+                               <li><a href="#">Mail Us</a></li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-7 margin-top_22per color-white">
+                        <h3 class="background_00B6FF width_90per padding_2per">The Easiest Way To Find Your Dream Home</h3>
+                        <h5 class="background_F25086 padding_2per width_55per">Excepteur sint occaecat cupidatat.</h5>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5">
+                        <div class="background_white padding_2per">
+                           <div class="banner text-center">
+                                <h3><span>SEARCH FOR HOME</span></h3>
+                            </div>
+                            <div class="reservation color_999">
+                                <div class="section-room  margin-top_10per">
+                                    <span class="marker"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                    <select id="country" onchange="change_country(this.value)" class="frm-field required padding_2_0_2_5">
+                                        <option value="null">Location</option>
+                                        <option value="null">Denmark</option>
+                                        <option value="AX">Sweden</option>
+                                        <option value="AX">New Zealand</option>
+                                        <option value="AX">America</option>
+                                        <option value="AX">Australia</option>
+                                    </select>
+                                </div>
+                                <div class="section-room  margin-top_5per">
+                                    <span class="house"><i class="fa fa-home" aria-hidden="true"></i></span>
+                                    <select id="country" onchange="change_country(this.value)" class="frm-field required padding_2_0_2_5">
+                                        <option value="null">Type of property</option>
+                                        <option value="null">Property1</option>
+                                        <option value="AX">Property2</option>
+                                        <option value="AX">Property3</option>
+                                        <option value="AX">Property4</option>
+                                        <option value="AX">Property5</option>
+                                    </select>
+                                </div>
+                                <div class="reservetion-grids position-relative">
+                                    <div class="reservetion-grids-left section-room margin-top_5per width_47per float-left">
+                                        <span class="bed"><i class="fa fa-bed" aria-hidden="true"></i></span>
+                                        <select id="country" onchange="change_country(this.value)" class="frm-field required padding_5_0_5_13">
+                                            <option value="null">Bedrooms</option>
+                                            <option value="null">1</option>
+                                            <option value="AX">2</option>
+                                            <option value="AX">3</option>
+                                            <option value="AX">4</option>
+                                            <option value="AX">More</option>
+                                        </select>
+                                    </div>
+                                    <div class="reservetion-grids-right section-room margin-top_5per width_47per float-left margin-left_6per">
+                                        <span class="baths"><i class="fa fa-bath" aria-hidden="true"></i></span>
+                                        <select id="country" onchange="change_country(this.value)" class="frm-field required padding_5_0_5_13">
+                                            <option value="null">Baths</option>
+                                            <option value="null">Any</option>
+                                            <option value="AX">2</option>
+                                            <option value="AX">3</option>
+                                            <option value="AX">4</option>
+                                            <option value="AX">More</option>
+                                        </select>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="reservetion-grids position-relative">
+                                    <div class="reservetion-grids-left section-room margin-top_5per width_47per float-left">
+                                        <span class="bed"><i class="fa fa-yen" aria-hidden="true"></i></span>
+                                        <select id="country" onchange="change_country(this.value)" class="frm-field required padding_5_0_5_13">
+                                            <option value="null">Price From Min</option>
+                                            <option value="null">No Minimum</option>
+                                            <option value="AX">1000Yen</option>
+                                            <option value="AX">3000Yen</option>
+                                            <option value="AX">4000Yen</option>
+                                            <option value="AX">5000Yen</option>
+                                        </select>
+                                    </div>
+                                    <div class="reservetion-grids-right section-room margin-top_5per width_47per float-left margin-left_6per">
+                                        <span class="baths"><i class="fa fa-yen" aria-hidden="true"></i></span>
+                                        <select id="country" onchange="change_country(this.value)" class="frm-field required padding_5_0_5_13">
+                                            <option value="null">Price From Max</option>
+                                            <option value="null">Any</option>
+                                            <option value="AX">15000Yen</option>
+                                            <option value="AX">25000Yen</option>
+                                            <option value="AX">35000Yen</option>
+                                            <option value="AX">More</option>
+                                        </select>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <form class="position-relative">
+                                   <span class="list"><i class="fa fa-list-alt" aria-hidden="true"></i></span>
+                                    <input type="text" name="name" class="width_100per section-room margin-top_5per padding_2_0_2_8" placeholder="Key Words" required>
+                                    <input type="submit" value="Search" class="width_100per section-room margin-top_5per padding_2per background_F25086 color-white border-color_F25086 search">
+                                </form>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="row text-center margin-top_5per color_999">
+                   <div class="banner_2 position-relative">
+                       <h2 class="font-size_45px color_00B6FF"><span>About Us</span></h2>
+                   </div>
+                    <h4 class="margin-top_2per">WHO WE ARE</h4>
+                    <p class="width_80per margin-top_5per margin0_auto">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                </div>
+                <div class="row margin-top_5per">
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <img src="image/1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <img src="image/2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <img src="image/3.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <img src="image/4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row margin-top_2per">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <h2>About Us</h2>
+                        <p class="color_999">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <h2>Who We Are</h2>
+                        <p class="color_999">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <h2>What We Do This</h2>
+                        <p class="color_999">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="jackson">
+            <div class="container">
+                <div class="row">
+                    <h2 class="width_80per margin0_auto text-center color-white">Duis Aute Irure Dolor In Reprehenderit In Voluptate Velit Esse Cillum <br> Dolore Eu Fugiat Nulla Pariatur.</h2>
+                    <h4 class="color-white text-right margin-top_2per"><i>Andrew Jackson</i></h4>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row margin-top_5per color_999">
+                    <div class="banner_2 position-relative">
+                       <h2 class="font-size_45px color_00B6FF text-center"><span>Testimonials</span></h2>
+                   </div>
+                    <h5 class="margin-top_2per text-center">MAIORES ALIAS CONSEQUATUR AUT PERFERENDIS DOLORIBUS ASPERIORES REPELLAT</h5>
+                    <div class="col-lg-6 col-md-6 col-sm-6 margin-top_5per">  <!--Слайд-->
+                        <div class="wmuSlider example1 animated wow slideInUp" data-wow-delay=".5s" style="height: 402px;">
+                           <div class="wmuSliderWrapper">
+                               <article style="position: relative; width: 100%; opacity: 1;">
+                                       <span class="float-left"><img src="image/1.png" alt=""></span>
+                                       <div class="float-left width_67per margin-top_5per margin-left_5per border-bottom padding-bottom_5per">
+                                           <h4 class="font-size_18px ">Ut Aut Reiciendis Voluptatibus Maiores Alias Consequatur Aut Perferendis Doloribus Asperiores Repellat</h4>
+                                           <p class="text-right margin-top_2per color-black"><i>2 days ago</i></p>
+                                       </div> 
+                                       <span class="float-left margin-top_5per"><img src="image/2.png" alt=""></span>
+                                       <div class="float-left width_67per margin-top_5per margin-left_5per border-bottom padding-bottom_5per margin-top_5per">
+                                           <h4 class="font-size_18px ">Quod Maxime Placeat Facere Possimus, Omnis Voluptas Assumenda Est, Omnis Dolor Repellendus</h4>
+                                           <p class="text-right margin-top_2per color-black"><i>3 days ago</i></p>
+                                       </div>
+                                       <div class="clear"></div>
+                               </article>
+                           </div>
+                    
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6"></div>
+                </div>
+            </div>
+        </section>
+        <section id="news">
+            <div class="container">
+                <div class="row">
+                    <div class="banner_2 position-relative">
+                       <h2 class="font-size_45px color_00B6FF text-center"><span>News & Events</span></h2>
+                   </div>
+                    <h5 class="margin-top_2per text-center color_999 margin-bottom_5per">MAIORES ALIAS CONSEQUATUR AUT PERFERENDIS DOLORIBUS ASPERIORES REPELLAT</h5>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                           <div class="background_white padding-bottom_3per">
+                                <a href="#" class="margin-left_5per"><img src="image/6.jpg" alt="" width="90%" class="margin-top_5per"></a>
+                                <h3 class="margin-left_5per"><a href="#" class="color-black">Oribus Asperiores</a></h3>
+                                <ul class="color_999 margin-left_5per">
+                                    <li>
+                                        <a href="#" class="color_999"><span class="margin-right_2per"><i class="fa fa-user" aria-hidden="true"></i></span>Admin</a>
+                                    </li>
+                                    <li class="margin-left_10per">
+                                        <span><i class="fa fa-calendar margin-right_2per" aria-hidden="true"></i>May 20, 2016</span>
+                                    </li>
+                                </ul>
+                                <p class="color_999 margin-top_2per margin-left_5per width_90per line-height_26px">At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                                    blanditiis praesentium voluptatum deleniti atque.</p>
+                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                           <div class="background_white padding-bottom_3per">
+                                <a href="#" class="margin-left_5per"><img src="image/8.jpg" alt="" width="90%" class="margin-top_5per"></a>
+                                <h3 class="margin-left_5per"><a href="#" class="color-black">Iusto Odio Dignissi</a></h3>
+                                <ul class="color_999 margin-left_5per">
+                                    <li>
+                                        <a href="#" class="color_999"><span class="margin-right_2per"><i class="fa fa-user" aria-hidden="true"></i></span>Admin</a>
+                                    </li>
+                                    <li class="margin-left_10per">
+                                        <span><i class="fa fa-calendar margin-right_2per" aria-hidden="true"></i>May 25, 2016</span>
+                                    </li>
+                                </ul>
+                                <p class="color_999 margin-top_2per margin-left_5per width_90per line-height_26px">At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                                    blanditiis praesentium voluptatum deleniti atque.</p>
+                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                           <div class="background_white padding-bottom_3per">
+                                <a href="#" class="margin-left_5per"><img src="image/7.jpg" alt="" width="90%" class="margin-top_5per"></a>
+                                <h3 class="margin-left_5per"><a href="#" class="color-black">Itatum Deleniti Atque</a></h3>
+                                <ul class="color_999 margin-left_5per">
+                                    <li>
+                                        <a href="#" class="color_999"><span class="margin-right_2per"><i class="fa fa-user" aria-hidden="true"></i></span>Admin</a>
+                                    </li>
+                                    <li class="margin-left_10per">
+                                        <span><i class="fa fa-calendar margin-right_2per" aria-hidden="true"></i>May 30, 2016</span>
+                                    </li>
+                                </ul>
+                                <p class="color_999 margin-top_2per margin-left_5per width_90per line-height_26px">At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                                    blanditiis praesentium voluptatum deleniti atque.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="width_80per margin0_auto text-center">
+                        <h2 class="font-size_40px">Sign Up For Our Newsletter</h2>
+                        <p class="color_999 width_67per margin0_auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                        <input type="text" name="Email" class="email" placeholder="Enter your email to update" required>
+                        <input type="submit" class="email-btn" value="Subscribe">
+                        <div class="clear"></div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 margin-top_3per">
+                        <ul>
+                            <li><p class="color_999 font-size_13px"><span><i class="fa fa-map-marker font-size_18px color-white" aria-hidden="true"></i></span>  General Pvt 66, Dong Da Hanoi, Vietnam.</p></li>
+                            <li class="margin-top_5per"><a href="#" class="color_999">
+                                <span class="color-white font-size_18px"><i class="fa fa-envelope" aria-hidden="true"></i></span> contact@example.com
+                            </a></li>
+                            <li class="margin-top_5per">
+                                <p class="color_999 font-size_13px">
+                                    <span class="color-white font-size_18px"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                    +0123 456 686
+                                </p>
+                            </li>
+                        </ul>    
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 margin-top_3per">
+                       <ul>
+                            <li>
+                                <span><i class="fa fa-arrow-right color-white" aria-hidden="true"></i></span><a href="#" class="color_999 margin-left_5per">Contact</a>
+                            </li>
+                            <li class="margin-top_5per">
+                                <span><i class="fa fa-arrow-right color-white" aria-hidden="true"></i></span><a href="#" class="color_999 margin-left_5per">Home</a>
+                            </li>
+                            <li class="margin-top_5per">
+                                <span><i class="fa fa-arrow-right color-white" aria-hidden="true"></i></span><a href="#" class="color_999 margin-left_5per">Short Codes</a>
+                            </li>
+                            <li class="margin-top_5per">
+                                <span><i class="fa fa-arrow-right color-white" aria-hidden="true"></i></span><a href="#" class="color_999 margin-left_5per">Gallery</a>
+                            </li>
+                        </ul>    
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 margin-top_3per">
+                        <ul>
+                            <li>
+                                <a href="#" class="float-left">
+                                    <img src="image/7.jpg" alt="" width="83px">
+                                </a>
+                                <ul class="float-left margin-left_5per">
+                                    <li>
+                                        <a href="#" class="color_999">
+                                            Eveniet Ut Molesti
+                                        </a>
+                                    </li>
+                                    <li class="margin-top_5per">
+                                        <a href="#" class="color_F25086">
+                                            <i class="fa fa-play-circle-o font-size_18px" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <div class="clear"></div>
+                            <li class="margin-top_5per">
+                                <a href="#" class="float-left">
+                                    <img src="image/6.jpg" alt="" width="83px">
+                                </a>
+                                <ul class="float-left margin-left_5per">
+                                    <li>
+                                        <a href="#" class="color_999">
+                                            Earum Rerum Tenet
+                                        </a>
+                                    </li>
+                                    <li class="margin-top_5per">
+                                        <a href="#" class="color_F25086">
+                                            <i class="fa fa-play-circle-o font-size_18px" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <div class="clear"></div>
+                            <li>
+                                <a href="#" class="float-left">
+                                    <img src="image/8.jpg" alt="" width="83px">
+                                </a>
+                                <ul class="float-left margin-left_5per">
+                                    <li>
+                                        <a href="#" class="color_999">
+                                            Maiores Alias Cons
+                                        </a>
+                                    </li>
+                                    <li class="margin-top_5per">
+                                        <a href="#" class="color_F25086">
+                                            <i class="fa fa-play-circle-o font-size_18px" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 margin-top_3per">
+                        <div class="width_200px">
+                            <a href="#">
+                                <img src="image/9.jpg" alt="" width="100px" class="float-left">
+                                <img src="image/10.jpg" alt="" width="100px" class="float-left">
+                                <img src="image/6.jpg" alt="" width="100px" class="float-left">
+                                <img src="image/7.jpg" alt="" width="100px" class="float-left">
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="row footer-bottom">
+                        <p class="text-center margin-top_3per margin-bottom_3per">© 2016 Plottage. All rights reserved | Design by <a href="#" class="color_00B6FF">W3layouts</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.7/js/bootstrap.js"></script>
+    <script src="main.js"></script>  
+  </body>
+</html>
+
+
+<!--
+<div class="col-lg-6 col-md-3 col-sm-3">
+                               <a href="#">
+                                   <h1 class="color_F25086 font-size_50px">Plottage<span class="margin-left_1per font-size_14px display-block color-white">Real Estate</span></h1>
+                               </a>
+                           </div>-->

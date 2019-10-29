@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.background_snow{
+    background: snow
+}
+
+header a:hover h3{
+    color: orange
+}
+
+header nav a:hover{
+    color: orange
+}
+
+header h3{
+    font-size: 1.5rem;
+    /*background: violet;*/
+    width: 500px;
+    margin-left: 100px
+
+}
+
+.display-block{
+    display: block
+}
+
+header nav a{
+    color: black;
+    /*background: orange*/
+    
+}
+
+.menu{
+    border-top: 1px solid grey;
+    padding: 25px 0
+    
+}
+
+.menu a{
+    text-align: center;
+    color: orange
+}
+
+.menu p{
+    color: dimgray
+}
+
+.sub-menu{
+    width: 100%;
+    background: #596273;
+    padding: 25px 0 35px
+}
+
+.sub-menu h1{
+    font-size: 2rem
+}
+
+
+.sub-menu p{
+    width: 550px;
+    font-size: 18px
+}
+
+.sub-menu_1 a{
+    background: #12806a;
+    font-size: 18px;
+    padding: 10px 10px
+        
+}
+
+.sub-menu_1{
+    width: 500px
+}
+
+.sub-menu_1 a:hover{
+    background: green
+}
+
+.margin-left_10per{
+    margin-left: 10%
+}
+
+.margin-top_15{
+    margin-top: 15px
+}
+
+.margin-left_15{
+    margin-left: 15px
+}
+
+.margin-left{
+    margin-left: 250px
+}
+
+.margin-left_100{
+    margin-left: 100px
+}
+
+.margin-left_200{
+    margin-left: 200px
+}
+
+
+.padding-battom{
+    padding-bottom: 5px
+}
+
+.padding-battom_20{
+    padding-bottom: 20px
+}
+
+.padding-top_15px{
+    padding-top: 15px
+}
+
+.margin-auto{
+    margin: 0 auto
+}
+
+.float-left{
+    float: left
+}
+
+.float-right{
+    float: right
+}
+
+.font-size1_3rem{
+font-size: 1.3rem
+}
+
+.font-size0_8rem{
+font-size: 0.8rem
+}
+
+.clear{
+    clear: both
+}
+.color-white{
+    color: white
+}
+
+.color-red{
+    color: red
+}
+
+.text-align_center{
+    text-align: center
+}
+
+.width_20per{
+    width: 20%
+}
+
+.width_25per{
+    width: 25%
+}
+
+.width_30per{
+    width: 30%
+}
+
+.width_80per{
+    width: 80%
+}
+
+.width_200px{
+    width: 200px
+}
+
+.width_220px{
+    width: 220px
+}
+
+.text-decoration_overline{
+    text-decoration: overline
+}
+
+.img{
+    width: 250px;
+    margin-right: 400px
+}
+
+.center{
+    width: 60%;
+    margin-top: 35px;
+    margin-left: 150px
+}
+
+.center p{
+    
+    margin-left: 15px;
+    /*padding-bottom: 75px;*/
+    background: #f5f6f8;
+    color: #7f8c8d;
+    height: 250px;
+   
+    
+}
+
+.center a{
+    margin-left: 15px;
+    font-size: 18px;
+    height: 150px;
+    display: block;
+    height: 45px;
+    text-align: center
+}
+
+.center a:hover{
+    color: orange
+}
+
+.center h5{
+    background: #f5f6f8;
+    color: #7f8c8d;
+    margin-left: 15px;
+    margin-bottom: 35px
+}
+
+.center-right{
+    width: 20%;
+    /*background: orange;*/
+    height: 600px;
+    margin-bottom: 150px;
+    margin-right: 100px
+    
+}
+
+.center-right_1{
+    border: 1px solid grey;
+    width: 80%;
+    margin-top: 20px
+}
+
+
+.center-right_1 li{
+    list-style: none;
+    display: inline-block
+}
+
+.center-right_1 a{
+    display: block;
+    margin: 5px 0 5px 5px;
+    border: 1px solid grey;
+    margin-top: 5px;
+    background: #f8f7f7;
+    color: #7f8c8d
+}
+
+.center-right_1 a:hover{
+    background: orange;
+    color: white
+}
+
+.center-right_2{
+    border: 1px solid grey;
+    width: 70%;
+    margin-top: 20px
+}
+
+.center-right_2 li{
+    list-style: none;
+    display: block
+}
+
+.center-right_2 a{
+    display: block;
+    margin: 5px 0 5px 5px;
+    margin-top: 5px;
+    color: #7f8c8d; 
+}
+
+.center-right_2 a:hover{
+    color: orange
+}
+
+.sup-footer{
+    width: 100%;
+    height: 60px;
+    background: black;
+    color: #95a5a6;
+    font-size: 12px;
+   
+}
+
+.sup-footer a{
+    text-decoration: underline;
+    color: #95a5a6
+}
+
+.over-y{
+    overflow-y: scroll
+}
+
+.width_30per p{
+    padding: 2%
+}
+
+footer{
+    color: #acacac;
+    background: #282828;
+    padding: 3% 10% 8% 0;
+}
+
+footer h4{
+    color: white
+}
+
+footer li{
+    display: block
+}
+
+footer a{
+    display: block;
+    color: #acacac    
+}
+
+footer a:hover{
+    color: orange
+}
+
+.a-fixed{
+    position: fixed;
+    left: 97%;
+    top: 35%;
+    width: 70px;
+    padding: 10px 2px 10px 5px
+}
+
+.a-fixed a{
+    display: block;
+    background: red;
+    width: 18px;
+    border-radius: 50%;
+    padding: 10px 10px
+
+}
+
+
+.fa{
+    color: white;
+
+}
+
+
+.a-fixed li{
+    display: block
+}
+
+

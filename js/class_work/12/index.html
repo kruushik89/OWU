@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<h3>My Google Maps Demo</h3>
+
+<div id="map"></div>
+
+<script>
+    function initMap() {
+/*1*/
+//        window.localStorage
+//        localStorage.setItem("identifiyer", 'tes tss'); створюємо локальне сховище
+//        console.log(localStorage.getItem("identifiyer")); виводимо в консоль
+        /*
+        var myLatPosition = prompt("lat?");
+        var myLongPosition = prompt("long?");
+        myLatPosition = parseInt(myLatPosition);
+        myLongPosition = parseInt(myLongPosition);
+        var myPositionObject = {lat: myLatPosition, lng: myLongPosition};
+//        {lat: 12, lng: 12} js object
+//        '{"lat":"12", "lng" : "12"}' json object
+        var jsonMyPositionObject = JSON.stringify(myPositionObject); // js->json
+
+        localStorage.setItem(prompt("name of cell?"), jsonMyPositionObject);
+*/
+/*2*/
+//        console.log(localStorage.getItem("1"));
+//        console.log(localStorage.getItem("b"));
+
+        var chooseObject = prompt("choose object");
+        var item = localStorage.getItem(chooseObject);
+        var parsedItem = JSON.parse(item);
+        navigator.geolocation.getCurrentPosition(
+            function (postion) {
+//                shif f6
+//                var myPosition = {lat: postion.coords.latitude, lng: postion.coords.longitude};
+//                var myPosition = {lat: parseInt(prompt('lat')), lng: parseInt(prompt("lng"))};
+                var myPosition = {lat: parsedItem.lat, lng: parsedItem.lng};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: myPosition,
+
+
+                });
+                var marker = new google.maps.Marker({
+                    position: myPosition,
+                    map: map
+                });
+            }
+        )
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhfju22h5LdDeN-LZ5Tw13CXlLt5HFs6A&callback=initMap">
+</script>
+</body>
+</html>

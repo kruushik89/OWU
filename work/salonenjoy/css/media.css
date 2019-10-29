@@ -1,0 +1,161 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+#vizaj .section_top_wrapper{
+    height: 350px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    section h2{
+        margin-bottom: 0;
+    }
+    #manikur .section_top_content{
+        margin-top: 15px;
+    }
+    .caption{
+        margin-top: 20px;
+    }
+    .section_top_wrapper{
+        height: 275px;
+    }
+    .section_top_content{
+        margin-top: 20px;
+    }
+    .parallax-slider{
+        display: none;
+    }
+    header{
+        background-image: url(../img/bg2.jpg);
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    section{
+        padding: 25px 0;
+    }
+    .menu_top ul{
+        margin-top: 35px;
+    }
+    .button_menu{
+        right: 20px;
+    }
+    .logo img{
+        width: 200px;
+    }
+    .top_wrapper .top_text h1{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    #aboutUs{
+        padding: 0 0 50px 0;
+    }
+    #aboutUs p{
+        width: 85%;
+        font-size: 16px;
+    }
+    .caption, .section_top_content{
+        margin-top: 25px;
+    }
+    .caption h3{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .section_top_wrapper{
+        height: 350px;
+    }
+    .section_top_content p{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .contacts i{
+        font-size: 20px;
+    }
+    .contacts span{
+        font-size: 15px;
+    }
+    .contacts li:first-child{
+        margin-right: 10px;
+    }
+    #manikur .section_top_content{
+        margin-top: 25px;
+    }
+    #manikur .section_top_content p{
+        margin-left: 0;
+    }
+    #manikur .section_top_wrapper{
+        height: 425px;
+    }
+    #vizaj .section_top_wrapper{
+        height: 510px;
+    }
+    #perukar .section_top_wrapper{
+        height: 275px;
+    }
+    footer .address{
+        float: none;
+        text-align: left;
+    }
+    footer p{
+        margin: 0;
+    }
+    header{
+        background-image: url(../img/bg_mobile.png);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: -95px -85px;
+        background-repeat: no-repeat;
+    }
+    #price{
+        background-color: #D3D2CF;
+    }
+    .price{
+        width: 100%;
+    }
+    .parallax-mirror{
+        display: none !important;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .section_top_content p{
+        font-size: 16px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

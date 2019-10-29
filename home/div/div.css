@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+
+.box{
+
+	width: 1000px;
+	background: red;
+	margin: 0 auto;
+	text-align: center;
+	border: solid red;
+	border-width:  3px 3px;
+}
+
+.header{
+    height: 300px;
+    width: 1000px;
+    background: violet
+}
+
+.vshapci{
+    width: 700px;
+    background: white;
+    height: 135px;
+    margin: 55px 0 0 150px;
+    padding-top: 50px}
+
+.v_vshapci{
+    width: 500px;
+    height: 75px;
+    background: black;
+     margin: 0 0 15px 100px
+}
+
+        
+.menu{
+    width: 1000px;
+    height: 200px;
+    background: grey;
+}
+    
+.b_red{
+    background: red    
+    }
+
+.b_orange{
+    background: orange
+}
+
+.b_green{
+    background: green
+}
+
+.b_aqua{
+    background: aqua
+}
+
+.b_yellow{
+    background: yellow
+}
+
+.b_blue{
+    background: blue
+}
+
+.b_pink{
+    background: pink
+}
+
+.width_25{
+    width: 25%
+}
+
+.width-33{
+    width: 33.3%
+}
+
+.width_50{
+    width: 50%
+}
+
+.height_33{
+    height: 33%
+}
+
+.height_85{
+    height: 85%
+}
+
+.height_100{
+    height: 100%
+}
+
+.height-500px{
+    height: 500px
+}
+
+.float_l{
+    float: left
+}
+
+.float_r{
+    float: right
+}
+
+.v_menu{
+    width: 100%;
+    height: 160px;
+    background: white
+}
+
+.footer{
+     width: 1000px;
+    height: 200px;
+    background: black;
+    clear: both;
+    color: white
+}
+
+.v_livom{
+    width: 70%;
+    height: 350px;
+    margin: 55px 0 0 50px
+}
+
+.margin-top{
+    margin-top:  33px
+}
+
+.m_cetnr{
+    margin-top:  56px
+}
+
+.a-c{
+    height: 90%;
+    margin-top: 24px
+}
+
+.b-c{
+    height: 50%;
+    margin-top: 194px
+}
+
+.r_blok1{
+    margin-top: 80%
+}
+
+.r_blok2{
+    margin-top: 55%
+}
+
+.r_blok3{
+    margin-top: 30%
+}
+
+.text{
+    color: aqua;
+    width: 65%;
+    background: black;
+    font-style: oblique;
+    padding: 5px 0
+}
+
+.m_text1{
+    margin-top: 45px
+}
+
+.m_text2{
+    margin-top: 35px
+}
+
+.v_vshapci a:hover{
+    background: red
+}

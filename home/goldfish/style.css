@@ -1,0 +1,433 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+
+
+a{
+    text-decoration: none
+}
+
+ul{
+    list-style: none
+}
+
+.background-white{
+    background: white
+}
+
+.navbar-header{
+    padding: 2% 0;
+}
+
+nav a{
+    margin-right: 3%
+}
+
+.navbar-brand a{
+    display: block
+}
+
+.navbar-brand{
+    display: block;
+    color: #D4AE33
+}
+
+.navbar-header a:hover{
+    color: gold
+}
+
+.font-size1_8{
+    font-size: 1.8rem
+}
+
+.navbar-brand p{
+    text-transform: lowercase;
+    font-size: 1.4rem
+}
+
+.float-left{
+    float: left
+}
+
+.float-right{
+    float: right
+}
+
+.margin-left_2per{
+    margin-left: 2%
+}
+
+.margin-left_5per{
+    margin-left: 5%
+}
+
+.margin-left_10per{
+    margin-left: 10%
+}
+
+.margin-left_27per{
+    margin-left: 27%
+}
+
+.margin-right_2per{
+    margin-right: 2%
+}
+
+.margin-right_27per{
+    margin-right: 27%
+}
+
+
+.margin-top{
+    margin-top: 1%
+}
+
+.margin-top_2per{
+    margin-top: 2%
+}
+
+.margin-top_3per{
+    margin-top: 3%
+}
+
+.margin-top_5per{
+    margin-top: 5%
+}
+
+.margin-top_10per{
+    margin-top: 10%
+}
+
+
+.margin-top_15per{
+    margin-top: 15%
+}
+
+
+nav {
+    margin: 2% auto;
+    width: 80%;
+}
+
+nav a{
+    color: #488279
+}
+
+nav a:hover{
+    color: yellow
+}
+
+nav a:nth-child(2){
+    margin-left: 25%
+}
+
+header{
+    background-image: url(http://goldfish.pp.ua/img/header-bg3.jpg);
+    background-position: center center;
+ background-size: cover;
+}
+
+
+header h1{
+    font-size: 5rem;
+    margin-left: 14%
+        
+}
+
+header ul{
+    list-style: none;
+    width: 9%;
+    margin: 3% 0 0 32%
+}
+
+header li{
+     padding: 10% 0 10% 12%;
+    font-size: 1.3rem;
+    background: yellow;
+    border-radius: 5%;
+    
+}
+
+header li a{
+    color: white
+}
+
+.text-align_center{
+    text-align: center
+}
+
+section{
+    text-align: center;
+    
+}
+
+section h2{
+    font-size: 2.3rem;
+    margin-bottom: 1%
+}
+
+section h3{
+    color: #777
+}
+
+.fa{
+    background: yellow;
+    color: white;
+    width: 21%;
+    padding: 5% 1.5%;
+    border-radius: 50%
+}
+
+.fa-shopping-cart{
+    font-size: 54px;
+        
+}
+
+.fa-star{
+    font-size: 54px
+}
+
+.fa-anchor{
+    font-size: 54px
+}
+
+.width_25per{
+    width: 25%
+}
+
+
+
+.font-size1_5rem{
+    font-size: 1.5rem
+}
+
+.font-size2_3rem{
+    font-size: 2.3rem
+}
+
+.padding_1per{
+    padding: 1% 0
+}
+
+.padding-bottom_10per{
+    padding-bottom: 10%
+}
+
+.color_777{
+    color: #777
+}
+
+.clear{
+    clear: both
+}
+
+#portfolio{
+    padding: 10% 7.5%;  
+    background: #f7f7f7
+}
+
+article{
+    text-align: center;
+    padding-bottom: 10%
+}
+
+article ul{
+    position: relative
+}
+
+article li img{
+    display: block;
+    border-radius: 50%;
+    border: 5px solid #f1f1f1       
+}
+
+article h4{
+    padding: 2% 0
+}
+
+article li h4:last-child{
+    display: block;
+    border-radius: 50%;
+    border: 5px solid #f1f1f1;
+    background: orange;
+    width: 158px;
+    height: 90px;
+    margin-left: 45%;
+    font-size: 1.1rem;
+    color: white
+}
+
+.width_15per{
+    width: 15%
+}
+
+.width_23per{
+    width: 23%
+}
+
+article ul:before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    background: #f1f1f1;
+    left: 50%;
+}
+
+#partners{
+    padding: 8% 0 4%;
+    background: #f7f7f7
+}
+
+footer{
+    background-image:url(http://goldfish.pp.ua/img/map-image.png);
+    padding: 10% 0;
+    text-align: center;
+    background: grey
+}
+
+.color-gold{
+    color: gold
+}
+
+.color-snow{
+    color: snow
+}
+
+.contact{
+    width: 37%
+}
+
+.contact input{
+    width: 100%;
+    background: snow;
+    padding: 5%;
+    border-radius: 2.5%
+}
+
+.contact_2{
+    width: 14%
+}
+
+
+.contact_2 input{
+    width: 100%;
+    background: snow;
+    padding: 5% 0 33%;
+    border-radius: 2.5%
+}
+
+.btn{
+    width: 12%;
+    padding: 1%;
+    border-radius: 2.5%;
+    background: gold
+}
+
+.sub-footer{
+    padding: 3% 15%
+}
+
+.conteiner{
+    width: 80%
+}
+
+.sub-footer a{
+    display:inline-block;
+    width: 50%;
+    color: white;
+}
+
+ .sub-footer li fa{
+    background: black;
+    color: white;
+    width: 21%;
+    padding: 5%;
+    border-radius: 50%
+}
+
+.fa-facebook{
+    font-size: 20px;
+}
+
+.nav-fixed{
+    position: fixed;
+    z-index: 9999 !important;
+    width: 100%;
+} 
+
+.display-block{
+    display: block
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    height: 500px
+}
+
+.sub-header{
+    width: 40%;
+    padding-bottom: 100px;
+}
+
+.margin-auto{
+     margin: 0 auto
+}
+
+header h2{
+    width: 50%;
+    text-align: center;
+    font-size: 3rem
+}
+
+header button{
+    width: 20%;
+    height: 50px;
+    background: gold;
+    padding: 20px 40px;
+    border-color: #fed136;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.margin-bottom-50px{
+    margin-bottom: 50px
+}
+
+.line{
+    position: relative;
+}
+
+.line img{
+    position: relative;
+    z-index: 20
+}
+.line h4{
+    position: relative;
+    z-index: 20
+}
+
+.line:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: #f1f1f1;
+    z-index: 10
+}
+
+
+
+
+

@@ -1,0 +1,439 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+li{
+	list-style: none;
+}
+
+p{
+	text-align: justify;
+}
+
+.navi{
+	display: flex;
+	justify-content: space-around;
+	background: #222;
+}
+
+.logo{
+	width: 220px;
+}
+
+#home{
+	height: 700px;
+	background: #222 url(../img/glavnaya2.jpg) no-repeat top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 270px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#home h1{
+	font: 75px Arial, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+#home h3{
+	font: 40px/40px Arial, sans-serif;
+	margin-bottom: 40px;
+}
+
+#btn-menu{
+	display: none;
+	color: #D31616;
+}
+
+.nav{
+	/*float: right;*/
+	padding-top: 5px;
+	position: relative;
+}
+
+.nav li{
+	float: left;
+	margin-right: 40px;
+}
+
+.nav li:first-child a{
+	color: #D31616;
+}
+
+.nav li:last-child{
+	margin-right: 0;
+}
+
+.nav a{
+	text-transform: uppercase;
+	font: 18px Arial, sans-serif;
+	color: #fff;
+}
+
+.nav a:hover{
+	color: #162DA7;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color: transparent;
+}
+
+.nav li ul{
+	position: absolute;
+	line-height: 35px;
+	left: -27px;
+	display: none;
+}
+
+.nav li:hover ul{
+	display: block;
+}
+
+.nav li ul a{
+	color: #f8fdff;
+}
+
+.nav li ul li:first-child a{
+	color: #f8fdff;
+}
+
+.nav li ul a:hover{
+	color: #c7c8c9 !important;
+}
+
+.nav li ul li{
+	float: none;
+	width: 175px;
+	border: 1px solid;
+	padding: 5px;
+	background: #b4a79d;
+}
+
+.btn{
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #162DA7;
+	padding: 15px 20px;
+	display: inline-block;
+	transition: 1s;
+	color: #ffffff;
+}
+
+.btn a{
+	color: #fff;
+}
+
+.btn:hover{
+	background-color: #D31616;
+	color: #ffffff;
+}
+
+.box{
+	padding: 70px 0;
+}
+
+#services h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#services h5{
+	font-size: 16px;
+}
+
+h5.title{
+	font: 18px Arial, sans-serif;
+	color: #222222;
+	font-weight: bold;
+}
+
+.services-item{
+	text-align: center;
+	padding-top: 70px;
+}
+
+.services-item p{
+	color: #777777;
+	font-size: 18px;
+	font-family: Times Arial, "Times New Roman", Times, serif;
+}
+
+.tire{
+	background: url("../img/services/tire_application_2924.png") no-repeat 50% 5%;
+}
+
+.disks{
+	background: url("../img/services/disk.png") no-repeat 50% 5%;
+}
+
+.montaj{
+	background: url("../img/services/montaj.png") no-repeat 50% 5%;
+}
+
+.slicing{
+	background: url("../img/services/images.png") no-repeat 50% 5%;
+}
+
+.remont{
+	background: url("../img/services/remont.png") no-repeat 50% 5%;
+}
+
+.balans{
+	background: url("../img/services/balans.png") no-repeat 50% 5%;
+}
+
+.tire, .disks, .montaj, .slicing, .remont, .balans{
+	padding-top: 90px;
+	padding-bottom: 10px;
+}
+
+#aboutUs{
+	background-color: #f7f7f7;
+}
+
+#aboutUs h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#aboutUs p{
+	font-size: 18px;
+}
+
+#aboutUs .btn{
+	margin-left: 46%;
+}
+
+
+/*footer*/
+footer{
+	font-size: 18px;
+	background: #8A8A8A;
+}
+
+footer h3{
+	color: #162DA7;
+}
+
+.contact p, .contact i{
+	color: #ffffff;
+}
+
+.ourContact ul{
+	display: flex;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	justify-content: center;
+	color: #ffffff;
+}
+
+.ourContact ul li:first-child, .ourContact ul li:last-child{
+	padding-top: 20px;
+}
+
+/*contact*/
+#contact{
+	padding:10px 0 10px;
+
+}
+
+.contact-text{
+	margin:45px auto;
+}
+
+.mail-message-area{
+	width:100%;
+	padding:0 15px;
+}
+
+.mail-message{
+	width: 100%;
+	background:rgba(255,255,255, 0.8) !important;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	transition: all 0.7s;
+	margin:0 auto;
+	border-radius: 0;
+}
+
+.not-visible-message{
+	height:0px;
+	opacity: 0;
+}
+
+.visible-message{
+	height:auto;
+	opacity: 1;
+	margin:25px auto 0;
+}
+
+/* Input Styles */
+
+.form{
+	width: 100%;
+	padding: 15px;
+	background:#f8f8f8;
+	border:1px solid rgba(0, 0, 0, 0.075);
+	margin-bottom:25px;
+	color:#727272 !important;
+	font-size:13px;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.form:hover{
+	border:1px solid #8BC3A3;
+}
+
+.form:focus{
+	color: white;
+	outline: none;
+	border:1px solid #8BC3A3;
+}
+
+.textarea{
+	height: 200px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+/* Generic Button Styles */
+
+.button{
+	padding:8px 12px;
+	background:#0A5175;
+	display: block;
+	width:120px;
+	margin:10px 0 0px 0;
+	border-radius:3px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align:center;
+	font-size:0.8em;
+	box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+	-moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+
+.button:hover{
+	background:#8BC3A3;
+	color:white;
+}
+
+/* Send Button Styles */
+
+.form-btn{
+	width:150px;
+	display: block;
+	height: auto;
+	padding:15px;
+	color:#fff;
+	background:#8BC3A3;
+	border:none;
+	border-radius:3px;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	margin:auto;
+	box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+	-moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+
+.form-btn:hover{
+	background:#111;
+	color: white;
+	border:none;
+}
+
+.form-btn:active{
+	opacity: 0.9;
+}
+center{
+	margin-top:330px;
+}
+input {
+	position: relative;
+	z-index: 9999;
+}
+
+footer .btn{
+	margin-left: 33%;
+}
+/*end contact*/
+
+/*end footer*/
+
+/*up button*/
+.up_button img{
+	position: fixed;
+	right: 25px;
+	bottom: 40px;
+	opacity: 0.5;
+	display: none;
+}
+
+.up_button img:hover{
+	opacity: 1;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+/*end up button*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

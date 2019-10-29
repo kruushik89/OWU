@@ -1,0 +1,175 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block; }
+
+button {
+    border: none;
+    padding: 0;
+    margin: 0; }
+
+body {
+    line-height: 1; }
+
+a {
+    text-decoration: none; }
+
+ol, ul {
+    list-style: none; }
+
+blockquote, q {
+    quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none; }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+ul a{
+    display: block;
+}
+
+.top_menu ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.top_menu ul a{
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #888888;
+}
+.top_menu ul li a:hover{
+    color: #BF5522;
+}
+.top_menu ul li:first-child a, .top_menu ul li:last-child a{
+    color: #BF5522;
+}
+.header_center{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.logo_center h1{
+    font-size: 60px;
+}
+.logo_center p{
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+}
+.icons_item ul, .search_center ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.icons_item li a, .search_center li a{
+    width: 55px;
+    border: 1px solid #E3E3E3;
+    margin-left: 10px;
+}
+.icons_item li a:hover{
+    border: 1px solid #888888;
+}
+.icons_item li a i{
+    margin-left: 20px;
+    padding: 10px 0;
+    color: #888888;
+    text-align: center;
+}
+.header_center{
+    border-bottom: 1px solid #E3E3E3;
+    border-top: 1px solid #E3E3E3;
+}
+.search_center li a i{
+    color: #888888;
+}
+.search_center li a{
+    color: #888888;
+    padding: 10px;
+    text-align: center;
+}
+.search_center li a:hover{
+    border: 1px solid #888888;
+}
+.search_center li a span{
+    color: #BF5522;
+}
+.bottom_menu ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.bottom_menu li a{
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #888888;
+}
+.bottom_menu li a:hover{
+    color: #BF5522;
+}
+.bottom_menu li:first-child a{
+    color: #BF5522;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

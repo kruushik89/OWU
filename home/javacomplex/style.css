@@ -1,0 +1,536 @@
+a{
+    text-decoration: none
+}
+
+*{
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    background-image: url(fon-top-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 2% 0 4%;
+    height: auto;
+    width: 100%;
+    color: #1d2d61
+}
+
+nav{
+    width: 53%;
+    margin-left: 15%
+}
+
+.nav-fixed{
+    position: fixed;
+    z-index: 9999 !important;
+    left: 10%;
+}
+
+header nav a{
+    padding: 1%;
+    color: #1d2d61
+}
+
+header nav a:hover{
+    color: orange
+}
+
+header button{
+    padding: 1% 1.5%;
+    background: orange;
+    color: snow
+}
+
+header h2{
+    color: #1d2d61
+}
+
+.width-1per{
+    width: 1%
+}
+
+.width-10per{
+    width: 10%
+}
+
+.width-17per{
+    width: 17%
+}
+
+.width-22per{
+    width: 22%
+}
+
+.width-30per{
+    width: 30%
+}
+
+.width-39per{
+    width: 39%
+}
+
+.width-40per{
+    width: 40%
+}
+
+.width-50per{
+    width: 50%
+}
+
+.width-51per{
+    width: 51%
+}
+
+.width-61per{
+    width: 61%
+}
+
+.width-80per{
+    width: 80%
+}
+
+.width-90per{
+    width: 90%
+}
+
+.width-96per{
+    width: 96%
+}
+
+.display-block{
+    display: block
+}
+
+.float-left{
+    float: left
+}
+
+.float-right{
+    float: right
+}
+
+.margin_0_auto{
+    margin: 0 auto
+}
+
+.margin-top_1per{
+    margin-top: 1%
+}
+
+.margin-top_2per{
+    margin-top: 2%
+}
+
+.margin-top_4per{
+    margin-top: 4%
+}
+
+.margin-top_5per{
+    margin-top: 5%
+}
+
+.margin-top_9per{
+    margin-top: 9%
+}
+
+.margin-top_10per{
+    margin-top: 10%
+}
+
+.margin-top_12per{
+    margin-top: 12%
+}
+
+.margin-top_31per{
+    margin-top: 31%
+}
+
+.margin-top_45px{
+    margin-top: 45px
+}
+
+.margin-left_1per{
+    margin-left: 1%
+}
+
+.margin-left_2per{
+    margin-left: 2%
+}
+
+.margin-left_5per{
+    margin-left: 5%
+}
+
+.margin-left_7per{
+    margin-left: 7%
+}
+
+.margin-left_8per{
+    margin-left: 8%
+}
+
+.margin-left_15per{
+    margin-left: 15%
+}
+
+.margin-left_25per{
+    margin-left: 25%
+}
+
+.margin-left_46per{
+    margin-left: 46%
+}
+
+
+.padding{
+    padding: 0%
+}
+
+.padding_1per{
+    padding: 1%
+}
+
+.padding_3per{
+    padding: 3%
+}
+
+.padding_5per{
+    padding:5% 0 5%
+}
+
+
+
+.padding-bottom_5per{
+    padding-bottom: 5%
+}
+
+.color-orange{
+    color: orange
+}
+
+.color_1d2d61{
+    color: #1d2d61
+}
+
+.color_F27000{
+    color: #F27000
+}
+
+.color-snow{
+    color: snow
+}
+
+.color-gold{
+    color: gold
+}
+
+.background_1d2d61{
+    background: #1d2d61
+}
+
+.background_27000{
+    background: #F27000
+}
+
+.clear{
+    clear: both
+}
+
+.font-size1_5r{
+    font-size: 1.5rem
+}
+
+.font-size_2r{
+    font-size: 2rem
+}
+
+.font-size2_5r{
+    font-size: 2.5rem
+}
+
+.font-size_3r{
+    font-size: 3rem
+}
+
+.font-size_16px{
+   font-size:  16px
+}
+
+.font-size_18px{
+   font-size:  18px!important
+}
+
+.font-size_35px{
+   font-size:  35px
+}
+
+.text-align_center{
+    text-align: center
+}
+
+.text-align_right{
+    text-align: right
+}
+
+.position-relative{
+    position: relative
+}
+
+#perevagy-kursu{
+   background-image: url(dark-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 2% 0 4%;
+    height: auto;
+    width: 100%;
+    position: relative
+}
+
+#kurs{
+    width: 20%;
+    background: #F27000;
+    padding: 1%;
+    position: absolute;
+    left: 37%;
+    top:-8%;
+    z-index: 20px;
+    font-size: 2rem;
+    border-radius: 5%
+}
+
+section button{
+    background: #F27000;
+    color: snow;
+    border-radius: 9%;
+    padding: 2%;
+    font-size: 19px;
+    margin-top: 5%
+}
+
+#program{
+    background-image: url(555444.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 2% 0 4%;
+    height: auto;
+    width: 100%;
+    position: relative
+}
+
+.line-left{
+   background: #F27000!important;
+    height: 2px!important;
+    position: absolute!important;
+    top: 44%!important;
+    width: 43%!important;
+}
+
+.line-right{
+    right: 0;
+    background: #F27000!important;
+    height: 2px!important;
+    position: absolute!important;
+    top: 44%!important;
+    width: 43%!important    
+}
+
+
+
+
+.img line-right:after{
+    background: #F27000!important;
+    height: 2px!important;
+    position: absolute!important;
+    top: 44%!important;
+    width: 43%!important;
+}
+
+
+#program li{
+    color: #F27000
+}
+
+#price{
+    background: #394353;
+    padding: 5%
+}
+
+.kolo{
+    font-size: 50px!important;
+    line-height: 60px!important;
+    width: 170px!important;
+    height: 170px!important;
+    border: 3px solid #fff!important;
+    border-radius: 999px!important;
+    margin-bottom: 10px!important
+}
+
+.counter{
+    color: #F27000!important;
+    display: inline-block;
+    text-align: center!important;
+    margin: 55px 65px 0!important;
+}
+
+.counter1{
+    color: #F27000!important;
+    display: inline-block;
+    text-align: center!important;
+    margin: 55px 28px 0!important;
+}
+
+#zapis{
+    background: #F27000;
+    color: snow;
+        padding: 5%
+}
+
+#zapis input{
+    border-color: #F27000
+}
+
+#zapis button{
+    border-radius: 1%;
+    border-color: #F27000;
+    background: orange
+}
+
+#news{
+    background-image: url(bg-news-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 2% 0 4%;
+    height: auto;
+    width: 100%;
+    position: relative;
+    color: snow
+}
+
+.margin-top_5per a{
+    display: block;
+    color: snow
+}
+
+.margin-top_5per a:hover{
+    color: #F27000
+}
+
+.border-radius{
+    border-radius: 5%
+}
+
+.margin-top_5per button{
+    font-size: 10px;
+    margin-left: 5%;
+    background: none
+}
+
+#galery{
+    background: #F27000;
+    padding: 2% 0 4%
+}
+
+.display-block{
+    display: block
+}
+
+#sup-footer{
+    background-image: url(box-proba.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 2% 0 4%;
+    height: auto;
+    width: 100%;
+    position: relative
+}
+
+.line{
+    position: absolute;
+    width: 25%;
+    background: #dedede;
+    height: 2px;
+    left: 37%
+}
+
+.position-relative{
+    position: relative
+}
+
+#sup-footer button{
+    margin-left: 43%;
+    margin-top: 73%;
+    font-size: 16px;
+    border-color: #F27000
+}
+
+footer{
+    border-top: 2px solid #dedede;
+    background: #2C3D4D;
+    color: #6187ab;
+    font-size: 13px !important
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

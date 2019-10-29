@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    /*------------------------*/
+    class Developer {
+        constructor(name, skills, team) {
+            this.name = name;
+            this.skills = skills;
+            this.team = team;
+        }
+
+        toString() {
+            return this.name + " " + this.skills + " " + this.team;
+        }
+    }
+    /*--------------------*/
+    var dev1 = new Developer("vasya", "java", "uTeam");
+    console.log(dev1);
+    console.log(dev1.toString());
+
+
+    /*in line class expression*/
+    var User = class {
+        constructor(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+
+
+        toString() {
+            return `${this.name} , ${this.age}`;
+        }
+    }
+
+    var u = new User("vasya", 30);
+    console.log(u.toString());
+
+
+    class Developer2 {
+        static standartSalary() {
+            return 3500;
+        }
+
+        constructor(name = "default name", skills = "default skill", team = "default team") {
+            this.name = name;
+            this.skills = skills;
+            this.team = team;
+        }
+
+
+        toString() {
+            return this.name + " " + this.skills + " " + this.team + " " + Developer2.salary;
+        }
+    }
+
+    var dev2 = new Developer2();
+    dev2.skills = "kjashdkaghsdjk";
+    console.log(dev2.toString);
+
+    console.log(Developer2.standartSalary());
+
+    class MathConst {
+        static PI() {
+            return 3.14;
+        }
+
+        static E() {
+            return 2.7
+        }
+    }
+
+
+    console.log(MathConst.PI());
+
+
+    class Developer3 {
+        static standartSalary() {
+            return 1000;
+        }
+
+        constructor(name = "default name", skills = "default skill", team = "default team") {
+            this._name = name;
+            this._skills = skills;
+            this._team = team;
+        }
+
+
+        toString() {
+            return this.name + " " + this.skills + " " + this.team + " " + Developer2.salary;
+        }
+
+        get name() {
+            var pass = "asd";
+            var passFromUser = prompt("enter password");
+            if (pass == passFromUser) {
+                return this._name;
+
+            }else{
+                alert("idi nahuy, psina");
+            }
+        }
+
+        set name(newName) {
+            if (newName == "huy") {
+                alert("atatat");
+            } else {
+                this._name = newName;
+            }
+        }
+
+    }
+
+    var dev3 = new Developer3();
+    dev3.name = "huynany";
+    console.log(dev3.name);
+
+    function sasha(){
+        return 3500;
+    }
+
+    sasha();
+    sasha();
+    sasha();
+
+</script>
+</body>
+</html>

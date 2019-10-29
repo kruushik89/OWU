@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link href="bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                <span class="sr-only">Открыть навигацию</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Логотип</a>
+        </div>
+        <div class="collapse navbar-collapse" id="responsive-menu">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Пункт 1</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Пункт 2<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Пункт 1</a></li>
+                        <li><a href="#">Пункт 2</a></li>
+                        <li><a href="#">Пункт 3</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Пункт 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Пункт 3</a></li>
+                <li><a href="#">Пункт 4</a></li>
+            </ul>
+
+            <!--Форма авторизации в навигации-->
+            <form action="" class="navbar-form navbar-right">
+                <div class="form-group"> <!--form-group групує наші інпути-->
+                    <input type="text" class="form-control" placeholder="E-mail" value="">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Пароль" value="">
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-sign-in"></i>Войти
+                </button>
+            </form>
+
+            <!--Создание страницы записей-->
+        </div>
+    </div>
+</div>
+<div class="container">
+
+
+<!--Окна оповещений и ошибок (Alert)-->
+    <div class="alert alert-danger alert-dismissible"> <!--alert-dismissible Закриває alert -->
+        <button type="button" class="close" data-dismiss="alert"> <!--Закриває alert -->
+            <i class="fa fa-times fa-fw"></i>
+        </button>
+        <h4>Операция прошла с ошибками</h4>
+        <p>
+            Добро пожаловать на сайт <a href="#" class="alert-link">клик</a>.
+        </p>
+        <p>
+            <!--data-dismiss="alert при натиску на кнопку вікно сповіщення зникає-->
+            <button type="button" class="btn btn-default" data-dismiss="alert">ОК</button>
+        <button type="button" class="btn btn-danger" data-dismiss="alert">Отмена</button>
+        </p>
+    </div>
+    <div class="alert alert-warning">
+        alert-warning
+    </div>
+    <div class="alert alert-success">
+        alert-success
+    </div>
+    <div class="alert alert-info">
+        alert-info
+    </div>
+
+
+
+    <div class="row">
+        <div class="container">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="#"><i class="fa fa-home"></i></a>
+                    </li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Категория</a></li>
+                    <li class="active">Название поста</li>
+                </ol>
+            </div>
+            <ul class="nav nav-tabs"> <!--або nav-pills -->
+                <li class="active"><a href="">Элемент 1 <span class="badge">15</span></a></li>  <!--badge кількість елементів-->
+                <li><a href="">Элемент 2 <span class="badge">25</span></a></li>
+                <li><a href="">Элемент 3 <span class="badge">10</span></a></li>
+                <li><a href="">Элемент 4 <span class="badge">6</span></a></li>
+            </ul>
+            <!--<hr> це бордер-->
+        </div>
+    </div>
+    <div class="row masonry" data-columns> <!--masonry "родитель", data-columns "атрибут"-->
+        <div class="item">
+            <div class="thumbnail">
+                <img src="http://placehold.it/600x340" class="img-responsive" alt="">
+                <div class="caption">
+                    <h3>НК Рокі</h3>
+                    <p>
+                        ранньостиглий (100 - 108 днів)
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div  class="item">
+            <div class="thumbnail">
+                <img src="http://placehold.it/600x340" class="img-responsive" alt="">
+                <div class="caption">
+                    <h3><a href="#">Название нашего поста</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus iure natus provident
+                        voluptatem. A consequuntur delectus dolor eveniet, itaque magnam magni nemo, odio optio
+                        pariatur praesentium quibusdam similique voluptate.
+                    </p>
+                    <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div  class="item">
+            <div class="thumbnail">
+                <img src="http://placehold.it/600x340" class="img-responsive" alt="">
+                <div class="caption">
+                    <h3><a href="#">Название нашего поста</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus iure natus provident
+                        voluptatem. A consequuntur delectus dolor eveniet, itaque magnam magni nemo, odio optio
+                        pariatur praesentium quibusdam similique voluptate.
+                    </p>
+                    <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div  class="item">
+            <div class="thumbnail">
+                <img src="http://placehold.it/600x340" class="img-responsive" alt="">
+                <div class="caption">
+                    <h3><a href="#">Название нашего поста</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus iure natus provident
+                        voluptatem. A consequuntur delectus dolor eveniet, itaque magnam magni nemo, odio optio
+                        pariatur praesentium quibusdam similique voluptate.
+                    </p>
+                    <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div  class="item">
+            <div class="thumbnail">
+                <img src="http://placehold.it/600x340" class="img-responsive" alt="">
+                <div class="caption">
+                    <h3><a href="#">Название нашего поста</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus iure natus provident
+                        voluptatem. A consequuntur delectus dolor eveniet, itaque magnam magni nemo, odio optio
+                        pariatur praesentium quibusdam similique voluptate.
+                    </p>
+                    <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div  class="item">
+            <div class="thumbnail">
+                <img src="http://placehold.it/600x340" class="img-responsive" alt="">
+                <div class="caption">
+                    <h3><a href="#">Название нашего поста</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus iure natus provident
+                        voluptatem. A consequuntur delectus dolor eveniet, itaque magnam magni nemo, odio optio
+                        pariatur praesentium quibusdam similique voluptate.
+                    </p>
+                    <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Постраничная навигация-->
+    <nav class="text-center">
+        <ul class="pagination pagination-sm">  <!--pagination-sm або pagination-lg розмір постраничної навігації-->
+            <li class="disabled"><a href="#"> <!--disabled вимикає кнопку-->
+                <i class="fa fa-chevron-left"></i>
+                <i class="fa fa-chevron-left"></i>
+            </a></li>
+            <li class="disabled"><a href="#">
+                <i class="fa fa-chevron-left"></i>
+            </a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">
+                <i class="fa fa-chevron-right"></i>
+
+            </a></li>
+            <li><a href="#">
+                <i class="fa fa-chevron-right"></i>
+                <i class="fa fa-chevron-right"></i>
+            </a></li>
+        </ul>
+    </nav>
+    <nav>
+        <ul class="pager">
+            <li class="previous"> <!--previous ставить ліворуч-->
+                <a href="#">&larr; Назад</a>
+            </li>
+            <li class="next"><!--next ставить праворуч-->
+                <a href="#">Вперед &rarr;</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li>
+                            <div class="input-append newsletter-box text-center">
+                                <input type="text" class="full text-center" placeholder="Email ">
+                                <button class="btn  bg-gray" type="button"> Lorem ipsum <i class="fa fa-long-arrow-right"> </i> </button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="social">
+                        <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!--/.footer-->
+
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="pull-left"> Copyright © Footer E-commerce Plugin 2014. All right reserved. </p>
+            <div class="pull-right">
+                <ul class="nav nav-pills payments">
+                    <li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-amex"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/.footer-bottom-->
+</footer>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<ul class="front-slides">
+    <li class="slide-1">
+        <a href="#">
+            <img src="http://placekitten.com/1000/800" height="800" width="1000" alt="Slide 1"/>
+            <h4>Dana</h4>
+        </a>
+    </li>
+    <li class="slide-2">
+        <a href="#">
+            <img src="http://placekitten.com/800/1000" height="1000" width="800" alt="Slide 2"/>
+            <h4>Mrs Pouty</h4>
+        </a>
+    </li>
+</ul>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap-3.3.7/js/bootstrap.js"></script>
+<script src="bootstrap-3.3.7/js/salvattore.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

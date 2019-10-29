@@ -1,0 +1,86 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+button { border: none; padding: 0; margin: 0; }
+
+body { line-height: 1; }
+
+a { text-decoration: none; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.container { max-width: 1280px; margin: 0 auto; }
+
+.container_btn { width: 50px; height: 50px; position: absolute; left: 90%; display: none; }
+
+.menu_btn { display: block; width: 50px; height: 50px; position: relative; background-color: #ffffff; }
+
+.menu_btn span, .menu_btn span::after, .menu_btn span::before { position: absolute; height: 2px; width: 20px; background-color: #222; top: 50%; margin-top: -1px; left: 50%; margin-left: -10px; }
+
+.menu_btn span::before, .menu_btn span::after { content: ''; }
+
+.menu_btn span::before { transform: translateY(-5px); }
+
+.menu_btn span::after { transform: translateY(5px); }
+
+.header { height: 710px; background: url(../image/bg.jpg) no-repeat; background-size: cover; padding: 25px 0; }
+.header .header_top { display: flex; justify-content: space-between; padding: 0 115px; }
+.header .menu { width: 530px; height: 100%; }
+.header .menu ul { display: flex; justify-content: space-between; height: 100%; align-items: center; }
+.header .menu ul a { font-size: 14px; font-family: "Open Sans - Semibold"; color: #ffffff; }
+.header .header_contain { position: relative; }
+.header .header_contain .header_title { width: 100%; position: absolute; top: 230px; text-align: center; }
+.header .header_contain .header_title h1 { font-size: 58px; font-family: "Lora"; font-weight: bold; color: #ffffff; margin-bottom: 34px; }
+.header .header_contain .header_title p { font-size: 25px; font-family: "OpenSans"; color: #ffffff; margin-bottom: 88px; }
+.header .header_contain .header_title .btn { padding: 25px 51px 27px 71px; box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25); border-radius: 36px; background-color: #00a5ff; cursor: pointer; color: #ffffff; font-family: "Open Sans - Semibold"; font-size: 25px; font-weight: 400; line-height: 23px; }
+.header .header_contain .header_title .btn:hover { box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5); }
+
+main #services { padding: 73px 0 97px; }
+main #services .services_title h2 { color: #3a3f4b; font-family: Lora; font-size: 42px; font-weight: 700; line-height: 23px; text-transform: uppercase; text-align: center; margin-bottom: 98px; }
+main #services .services_item { padding: 0 116px; }
+main #services .services_item ul { display: flex; text-align: center; }
+main #services .services_item ul li span { display: block; width: 81px; height: 81px; background-color: #f5f6f8; margin: 0 auto 18px; border-radius: 50%; background-image: url(../image/icons/icons.png); background-repeat: no-repeat; cursor: pointer; }
+main #services .services_item ul li span:hover { box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.15); }
+main #services .services_item ul li .services_icon1 { background-position: 11px 5px; }
+main #services .services_item ul li .services_icon2 { background-position: 9px -61px; }
+main #services .services_item ul li .services_icon3 { background-position: 19px -126px; }
+main #services .services_item ul li .services_icon4 { background-position: 10px -206px; }
+main #services .services_item ul li h3 { color: #3a3f4b; font-family: "Source Sans Pro - Semibold"; font-size: 18px; font-weight: bold; text-transform: uppercase; margin-bottom: 38px; }
+main #services .services_item ul li p { color: #999999; font-family: "Open Sans"; font-size: 12px; font-weight: bold; line-height: 20px; padding: 0 10px; }
+main #portfolio { padding: 46px 0 80px; background-color: #f5f6f8; }
+main #portfolio .portfolio_title h2 { color: #3a3f4b; font-family: Lora; font-size: 42px; font-weight: 700; line-height: 23px; text-transform: uppercase; text-align: center; margin-bottom: 98px; }
+main #portfolio .portfolio_menu { width: 550px; margin: 0 auto 50px; }
+main #portfolio .portfolio_menu ul { display: flex; justify-content: space-between; }
+main #portfolio .portfolio_menu ul li a { color: #999999; font-family: "Open Sans"; font-size: 14px; font-weight: 400; text-transform: uppercase; }
+main #portfolio .portfolio_menu ul li a:hover { color: #00a5ff; border-bottom: 1px solid #00a5ff; }
+main #portfolio .portfolio { display: flex; flex-wrap: wrap; justify-content: center; }
+main #portfolio .portfolio .portfolio_content { margin-left: 15px; box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.15); margin-bottom: 15px; }
+main #portfolio .portfolio .portfolio_content .portfolio_image:hover { cursor: pointer; opacity: 0.8; }
+main #portfolio .portfolio .portfolio_content .portfolio_title { background-color: #f4f5f9; padding: 29px 0; margin-left: 32px; }
+main #portfolio .portfolio .portfolio_content .portfolio_title h3 { color: #999999; font-family: "Open Sans - Semibold"; font-size: 18px; font-weight: 400; }
+main #portfolio .btn_portfolio { text-align: center; margin-top: 47px; }
+main #portfolio .btn_portfolio button { box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25); border-radius: 32px; background-color: #00a5ff; padding: 22px 64px; color: #ffffff; font-family: "Open Sans - Semibold"; font-size: 25px; font-weight: 400; line-height: 23px; text-transform: uppercase; cursor: pointer; }
+main #portfolio .btn_portfolio button:hover { box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5); }
+main #brands { padding: 67px 0 125px; }
+main #brands .brands_title { color: #3a3f4b; font-family: Lora; font-size: 42px; font-weight: 700; line-height: 23px; text-transform: uppercase; text-align: center; margin-bottom: 107px; }
+main #brands .brands_logo { display: flex; justify-content: space-around; align-items: center; }
+
+#footer { background-color: #3b404c; color: #ffffff; padding: 70px 0; }
+#footer .footer_top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 110px; }
+#footer .footer_top .footer_title { font-size: 33px; font-weight: bold; }
+#footer .footer_top .footer_menu ul { display: flex; }
+#footer .footer_top .footer_menu ul li { margin-left: 15px; }
+#footer .footer_top .footer_menu ul li a { font-size: 20px; color: #ffffff; }
+#footer .footer_main { display: flex; }
+#footer .footer_main .contact { margin-bottom: 60px; }
+#footer .footer_main .contact .contact_title h3 { font-size: 24px; font-family: 'Open Sans', sans-serif; font-weight: 400; margin-bottom: 30px; }
+#footer .footer_main .contact .contact_contant p { font-size: 18px; font-family: 'Open Sans', Regular; color: #999999; line-height: 1.333; }
+
+/*# sourceMappingURL=style.css.map */

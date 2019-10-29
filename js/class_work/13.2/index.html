@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .yyy{
+            color: red;
+        }
+
+
+
+
+
+        .submenu li{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<button id="btn">om mouse over</button>
+
+<div class="xxx">ee</div>
+<div class="xxx">rr</div>
+<div class="xxx">tt</div>
+<h1>hello!</h1>
+<div>test</div>
+
+<ul class = "menu">
+    <li>111</li>
+    <li>222
+        <ul class = "submenu">
+            <li>2211</li>
+            <li>2222</li>
+            <li>2233</li>
+        </ul>
+    </li>
+    <li>333</li>
+</ul>
+
+
+<!--<script>-->
+    <!--li2.onclick = function () {-->
+        <!--var ulSubMenu = li2.children[0];-->
+        <!--ulSubMenu.className = "newClass";-->
+    <!--}-->
+
+    <!--var button = document.getElementById("btn");-->
+    <!--button.onmouseover = function () {-->
+        <!--var elems = document.getElementsByTagName("div");-->
+        <!--for (var i = 0; i < elems.length; i++) {-->
+            <!--var elem = elems[i];-->
+            <!--elem.className = "yyy";-->
+
+        <!--}-->
+
+    <!--}-->
+<!--</script>-->
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<button id="btn">om mouse over</button>
+
+<div class="xxx">hello</div>
+<div class="xxx">world</div>
+<div class="xxx">!!!</div>
+<h1>hiii!!!</h1>
+<div>test</div>
+
+<ul class = "menu">
+    <li>111</li>
+    <li>222
+        <ul class = "submenu">
+            <li>2211</li>
+            <li>2222</li>
+            <li>2233</li>
+        </ul>
+    </li>
+    <li>333</li>
+</ul>
+<script>
+    li2.onclick = function () {
+        var subMenu = li2.children[0];
+        subMenu.className = 'newClass'
+    }    
+    
+    var batton2 = document.createElement('btn');
+    batton2.onmouseover = function () {
+        var elements = document.getElementsByTagName('div');
+        for (var i = 0; i < elements.length; i++) {
+            var elem = elements[i];
+            elem.className = 'asd';
+        }
+    }
+</script>
+
+
+
+
+</body>
+</html>

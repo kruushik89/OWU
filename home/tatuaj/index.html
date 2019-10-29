@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Перманентный макияж</title>
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+        <link href="bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <nav class="main-nav" role="navigation">
+
+      <!-- Mobile menu toggle button (hamburger/x icon) -->
+      <input id="main-menu-state" type="checkbox" />
+      <label class="main-menu-btn" for="main-menu-state">
+          <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+      </label>
+
+      <h2 class="nav-brand"><a href="#">Brand</a></h2>
+
+      <!-- Sample menu definition -->
+      <ul id="main-menu" class="sm sm-mint">
+          <li><a href="http://www.smartmenus.org/">Home</a></li>
+          <li><a href="http://www.smartmenus.org/about/">About</a>
+              <ul>
+                  <li><a href="http://www.smartmenus.org/about/introduction-to-smartmenus-jquery/">Introduction to SmartMenus jQuery</a></li>
+                  <li><a href="http://www.smartmenus.org/about/themes/">Demos + themes</a></li>
+                  <li><a href="http://vadikom.com/about/#vasil-dinkov">The author</a></li>
+                  <li><a href="http://www.smartmenus.org/about/vadikom/">The company</a>
+                      <ul>
+                          <li><a href="http://vadikom.com/about/">About Vadikom</a></li>
+                          <li><a href="http://vadikom.com/projects/">Projects</a></li>
+                          <li><a href="http://vadikom.com/services/">Services</a></li>
+                          <li><a href="http://www.smartmenus.org/about/vadikom/privacy-policy/">Privacy policy</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+          <li><a href="http://www.smartmenus.org/download/">Download</a></li>
+          <li><a href="http://www.smartmenus.org/support/">Support</a>
+              <ul>
+                  <li><a href="http://www.smartmenus.org/support/premium-support/">Premium support</a></li>
+                  <li><a href="http://www.smartmenus.org/support/forums/">Forums</a></li>
+              </ul>
+          </li>
+          <li><a href="http://www.smartmenus.org/docs/">Docs</a></li>
+          <li><a href="#">Sub test</a>
+              <ul>
+                  <li><a href="#">Dummy item</a></li>
+                  <li><a href="#">Dummy item</a></li>
+                  <li><a href="#" class="disabled">Disabled menu item</a></li>
+                  <li><a href="#">Dummy item</a></li>
+                  <li><a href="#">more...</a>
+                      <ul>
+                          <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">more...</a>
+                              <ul>
+                                  <li><a href="#">Dummy item</a></li>
+                                  <li><a href="#" class="current">A 'current' class item</a></li>
+                                  <li><a href="#">Dummy item</a></li>
+                                  <li><a href="#">more...</a>
+                                      <ul>
+                                          <li><a href="#">subMenusMinWidth</a></li>
+                                          <li><a href="#">10em</a></li>
+                                          <li><a href="#">forced.</a></li>
+                                      </ul>
+                                  </li>
+                                  <li><a href="#">Dummy item</a></li>
+                                  <li><a href="#">Dummy item</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                          <li><a href="#">Dummy item</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+          <li><a href="http://www.smartmenus.org/contact/">Contact</a></li>
+      </ul>
+  </nav>
+
+  <div class="demo-text">
+      <p>Demonstrates a complete navbar including a mobile view menu toggle button (<a href="http://www.smartmenus.org/docs/#menu-toggle-button">related docs</a>).</p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <header>
+        <div class="container">
+           <div class="row">
+                <div class="header-phone">
+                    <span>+38 (067) 127 70 70</span><br>
+                    <span>+38 (050) 425 02 72</span>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 margin-top_3per color-white">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li class="margin-left_10per dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Услуги</a>
+                                <ul class="dropdown-menu background-black">
+                                   <li>
+                                       <a href="#" style="color: white;">Перманентный макияж</a>
+                                   </li>
+                                   <li><a href="#" style="color: white;">Удаление татуировок неодиновым лазером</a></li>
+                                   <li><a href="#" style="color: white;">Лазерное удаление татуажа</a></li>
+                               </ul>
+                            </li>
+                            <li class="margin-left_10per"><a href="#">Обучение</a></li>
+                            <li class="margin-left_10per dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Цены</a>
+                                <ul class="dropdown-menu background-black">
+                                   <li>
+                                       <a href="#" style="color: white;">На услуги В.Рудько</a>
+                                   </li>
+                                   <li><a href="#" style="color: white;">На услуги мастеров</a></li>
+                                   <li><a href="#" style="color: white;">Магазин</a></li>
+                                   <li><a href="#" style="color: white;">Акции</a></li>
+                               </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <img src="logo1.png" alt="logo">
+                </div>
+                <div class="col-lg-5 col-md-5 col-md-5 margin-top_3per color-white">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Shop</a></li>
+                            <li class="margin-left_10per"><a href="#">Контакты</a></li>
+                            <li class="margin-left_10per dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Портфолио</a>
+                                <ul class="dropdown-menu background-black">
+                                   <li>
+                                       <a href="#" style="color: white;">Работы В.Рудько</a>
+                                   </li>
+                                   <li><a href="#" style="color: white;">Работы мастеров салона</a></li>
+                               </ul>
+                            </li>
+                            
+                            <li class="margin-left_10per dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Блог</a>
+                                <ul class="dropdown-menu background-black">
+                                   <li>
+                                       <a href="#" style="color: white;">Новости</a>
+                                   </li>
+                                   <li><a href="#" style="color: white;">Статьи</a></li>
+                                   <li><a href="#" style="color: white;">Мероприятия</a></li>
+                                   <li><a href="#" style="color: white;">Вопрос-Ответ</a></li>
+                                   <li><a href="#" style="color: white;">Видео</a></li>
+                               </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row margin-top_15per">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <span class="margin-left_48per"><img src="VRs.png" alt="viktoria"></span>
+                    <h1>Центр перманентного макияжа PERMANENT FOR EVERY</h1>
+                    <a href="#" class="btn btn-default">Подробней</a>
+                </div>
+            </div>    
+        </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row text-center">
+                <h3>Татуаж в Киеве</h3>
+                <div class="border_top_bottom width_70per margin_0_auto padding_2_0 margin-top_3per">
+                    <h4><strong>Качественный перманентный макияж – это иллюзия безупречной естественности!</strong></h4>
+                    <p>Благодаря европейским техникам и оборудованию премиум класса,  мастера Центра Виктории Рудько создают макияж в стиле nude:  нежные пудровые брови, визуально более объемные губы,  межресничный татуаж для эффектного взгляда. Все это лишь добавляет чертам лица выразительности и привлекательности.</p>
+                    <br>
+                    <p>Современный перманент – это полное отсутсвие графики, это дымчатые очертания, выполненные в натуральных тонах, это процедура, о которой не догадается никто из окружающих.</p>
+                    <br>
+                    <p><strong>Это ваша уверенность в себе – 24 часа в сутки, 7 дней в неделю!</strong></p>
+                    <br>
+                    <p><strong>Permanent for every — твой путь к совершенству!</strong></p>
+                </div>
+            </div>
+        </div>
+        <a href="#" id="back_to_top">
+            <span class="arrow_up">
+                <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i>
+            </span>
+        </a>
+    </section>
+       
+    <section class="background_f6f3f3">
+        <div class="container">
+            <div class="row margin-top_3per text-center">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="papka">
+                            <img src="pc-1.png" alt="pc">
+                        </div> 
+                        <h4>Магазин</h4>   
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="papka">
+                            <img src="knopka-150x150.png" alt="knopka">
+                        </div> 
+                        <h4>Цены на услуги</h4>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="papka">
+                            <img src="skrepka.png" alt="skrepka">
+                        </div> 
+                        <h4>Отзывы</h4>
+                </div>
+            </div>
+            <div class="row margin-top_3per text-center">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="papka">
+                            <img src="galery.png" alt="pc">
+                        </div> 
+                        <h4>Портфолио</h4>   
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="papka">
+                            <img src="learn-150x150.png" alt="knopka">
+                        </div> 
+                        <h4>Обучение</h4>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="papka">
+                            <img src="products.png" alt="skrepka">
+                        </div> 
+                        <h4>Услуги</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row text-center padding_2_0">
+                <h3><a href="#"><u>Скидки и акции салона татуажа</u></a></h3>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <a href=""><img src="Akciya-Kris_1-323x300.jpg" alt=""></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <a href=""><img src="kniga-zapisi-klientov1-321x300.jpg" alt=""></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <a href=""><img src="maska-329x300.jpg" alt=""></a>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <section id="garantii">
+        <div class="container">
+            <div class="row text-center">
+                <p>Мы гарантируем качественное обслуживание</p>
+                <p>и дарим нашим клиентам массу</p>
+                <p>положительных эмоций</p>
+                <a href="#" class="btn btn-default"><u><strong>Записаться в салон</strong></u></a>
+            </div>
+        </div>
+    </section>
+    <section id="curs">
+        <div class="container">
+            <div class="row text-center">
+              <div class="padding_4_0">
+                   <h3><b>Курсы татуажа</b></h3>
+                   <p>Академия Purebeau проводит обучение перманентному макияжу, которое рассчитано как на новичков, так и на практикующих мастеров, желающих повысить свою квалификацию и освоить новейшие техники татуажа. Мы гарантируем интенсивные базовые знания, максимум практики, обеспечиваем выпускников курса информационной поддержкой и выдаем сертификат европейского образца.</p>
+                   <br>
+                   <p><strong>Обучение у нас — это уникальное сочетание профессиональной информации и практики!</strong></p>
+               </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="december1-450x300.jpg" alt="www" style="width: 350px">
+                    <h4><a href="#"><u>КУРСЫ ОБУЧЕНИЯ ТАТУАЖУ — УНИВЕРСАЛ, БРОВИСТ, УДАЛЕНИЕ ТАТУАЖА</u></a></h4>
+                    <p class="text-left margin-top_3per line-height_26px">Мы обучаем самой востребованной профессии в индустрии красоты. Базовый курс длится 7 дней и включает себя максимум теории и усиленный практикум. Выпускники Академии Пьюбо (Украина) полностью готовы к самостоятельной практике! Ждем и вас!</p>
+                    <a href="#" class="btn btn-default">Выбрать курс</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="DSC_1452-450x300.jpg" alt="www" style="width: 350px">
+                    <h4><a href="#"><u>ИНДИВИДУАЛЬНЫЙ ПРАКТИКУМ — ПОВЫШЕНИЕ КВАЛИФИКАЦИИ</u></a></h4>
+                    <p class="text-left margin-top_3per line-height_26px">Универсальность умений мастера перманентного макияжа напрямую связано с его востребованностью. Двигайтесь в ногу со временем — осваивайте новейшие техники с нами и наращивайте базу благодарных клиентов! По  окончанию занятия выдается сертификат академии перманентного макияжа «PUREBEAU» европейского образца.</p>
+                    <a href="#" class="btn btn-default">Выбрать практикум</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="09-450x300.jpg" alt="www" style="width: 350px">
+                    <h4><a href="#"><u>ОТЗЫВЫ УЧЕНИЦ АКАДЕМИИ ПЕРМАНЕНТНОГО МАКИЯЖА</u></a></h4>
+                    <p class="text-left margin-top_3per line-height_26px">Здесь представлены выпускные работы наших учениц, которые свидетельствуют о интенсивности базового курса нашей Академии. Для Вас мы также собрали из соцсетей отзывы об обучении у сертифицированного тренера международного уровня Виктории Рудько.</p>
+                    <a href="#" class="btn btn-default">Смотреть отзывы</a>
+                </div>
+            </div>
+            <div class="row text-center margin-top_5per margin-bottom_3per">
+                <h3><strong>Ближайшие мастер-классы по татуажу</strong><br></h3>
+                    <h4>СЕРТИФИЦИРОВАННЫЙ ТРЕНЕР МЕЖДУНАРОДНОГО УРОВНЯ ВИКТОРИЯ РУДЬКО</h4>
+                <div class="col-lg-4 col-md-4 col-sm-4 margin-top_3per">
+                    <img src="banner299x300.jpg" alt="www" style="width: 350px">
+                    <h4><a href="#"><u> МАСТЕР-КЛАСС «ОБЪЕМНЫЕ ТЕХНИКИ ТАТУАЖА ГУБ»</u></a></h4>
+                    <p class="text-left margin-top_3per line-height_26px">Приглашаем Вас 2 апреля 2017 г. на мастер класс «Объемные техники татуажа губ»! Мастер-класс даст вам уникальную возможность получить практические навыки по самым востребованным техникам перманентного макияжа губ. Рассчитан на практикующих мастеров татуажа.</p>
+                    <a href="#" class="btn btn-default">Записаться </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 margin-top_3per">
+                    <img src="ban-299x300.jpg" alt="www" style="width: 350px">
+                    <h4><a href="#"><u>МАСТЕР-КЛАСС «СЕКРЕТЫ ВОСТРЕБОВАННОСТИ МАСТЕРА ТАТУАЖА»</u></a></h4>
+                    <p class="text-left margin-top_3per line-height_26px">Приглашаем Вас 14 мая 2017 г. на мастер-класс «Секреты востребованности мастера татуажа»! За один день вы освоите схему бесконфликтной работы с клиентами, типажи клиентов и “подводные камни” в общении с ними, разбор самых распространенных проблемных ситуаций, преодоление возражений и многое другое.</p>
+                    <a href="#" class="btn btn-default">Записаться</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 margin-top_3per">
+                    <img src="vistavka.jpg" alt="www" style="width: 350px">
+                    <h4><a href="#"><u>ВЫСТАВКА ESTET BEAUTY EXPO 2017: НАШ СТЕНД 3А-7-16А</u></a></h4>
+                    <p class="text-left margin-top_3per line-height_26px">Приглашаем Вас посетить самую масштабную выставку индустрии красоты Estet Beauty Expo 14-16 марта (МВЦ, Киев м.Левобережная)! Бесплатные мастер-классы Виктории Рудько ежедневно в 11.00 и 14.00. Будем рады общению! По промо-коду вход бесплатный!</p>
+                    <a href="#" class="btn btn-default">Получить промо-код</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="video">
+        <div class="container">
+            <div class="rov">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fYgKjpRN070" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_q4BI07Ez7A" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    <section>
+        <div class="container">
+            <div class="row margin-top_5per padding_bottom_3per">
+               <div class="width_1025px margin_0_auto">
+                    <img src="nam.png" alt="" class="margin_0_auto">
+                </div>
+                <h3 class="text-center"><u>Популярные статьи о татуаже</u></h3>
+                <div class="col-lg-4 col-md-4 col-sm-4 margin-top_3per">
+                    <img src="08-300x300.jpg" alt="www" style="width: 350px">
+                    <h4 class="text-center"><a href="#"><u>ТАТУАЖ ВЕК С АКЦЕНТНОЙ РАСТУШЕВКОЙ. ТОНКОСТИ ДЛЯ МАСТЕРОВ</u></a></h4>
+                    <p class="text-left margin-top_3per line-height_26px">Хочется поговорить о технике, которая, судя по востребованности, претендует на звание классической. Речь идет об акцентной растушевке века. Многие мастера не рискуют иметь с ней дело. Сегодня я постараюсь коснуться важных аспектов технической стороны вопроса.</p>
+                    <a href="#" class="btn btn-default">читать далее</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 margin-top_3per">
+                    <img src="96-284x300.png" alt="www" style="width: 350px; heigth: 350px">
+                    <h4 class="text-center"><a href="#"><u>ФИБРОБЛАСТ (FIBROBLAST) — МГНОВЕННЫЙ АППАРАТНЫЙ ЛИФТИНГ</u></a></h4>
+                    <p class="text-left margin-top_3per line-height_26px">В начале года бренд Purebeau сделал шаг на пути к уникальной целостной концепции совершенства естественной красоты — создал и презентовал революционный аппарат для мгновенного лифтинга, который вызвал небывалый ажиотаж в Европе! И первый FibroBlast в Украине появился у нас — в Центре Виктории Рудько.</p>
+                    <a href="#" class="btn btn-default">читать далее</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 margin-top_3per">
+                    <img src="pigmenty-dlya-perekritiya1-300x300.jpg" alt="www" style="width: 350px">
+                    <h4 class="text-center"><a href="#"><u>ИСПРАВЛЕНИЕ ТАТУАЖА БРОВЕЙ И ГУБ. ВОПРОСЫ И ОТВЕТЫ</u></a></h4>
+                    <p class="text-left margin-top_3per line-height_26px">В наших группах в соцсетях, <a href="#" class="color_002e7f"><u>на мастер-классах</u></a>, в комментариях к статьям вы часто спрашиваете, как можно <strong>исправить некачественный татуаж губ и бровей.</strong> Сегодня Виктория Рудько дает ответы на многие <a href="#" class="color_002e7f"><u>вопросы мастеров.</u></a></p>
+                    <a href="#" class="btn btn-default">читать далее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="victoria">
+        <div class="container">
+            <div class="row">
+               <div class="text-center color-white margin-top_10per">
+                    <h2 class="font-size_40px">Технология Purebeau</h2>
+                    <p><i class="fa fa-quote-right fa-2x" aria-hidden="true"></i></p>
+                    <div class="margin_10_0">
+                        <img src="VR2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sup-footer">
+        <div class="container text-center">
+            <h2>У вас еще остались вопросы?</h2>
+             <a href="#" class="fancybox"><u>Обратный звонок</u></a>
+            <h2 class="margin-top_5per">Мы в соцсетях</h2>
+            <h3>Будьте в курсе всех событий, подписывайтесь на нас в соцсетях.</h3>
+            <ul>
+                <li><img src="logo/vk.png" alt=""></li>
+                <li><img src="logo/facebook1.png" alt=""></li>
+                <li><img src="logo/photostrana.png" alt=""></li>
+                <li><img src="logo/google1.png" alt=""></li>
+                <li><img src="logo/youtube.png" alt=""></li>
+            </ul>
+            <div class="row text-left margin-top_5per">
+                <a href="">   
+                    <img src="13774728_575695182610129_22869217_a.jpg" alt="" class="border-radius_50per float-left" width="60">
+                    <div>
+                        <h3 class="font-size_16px">@viktoriya.rudko</h3>
+                        <p>Permanent For Every</p>
+                     </div>
+                     <div class="clear"></div>
+                </a>    
+                <div class="col-lg-3 col-md-3 col-sm-3 margin-top_3per">
+                   <a href=""><img src="17126011_1114878005304706_4862130457719865344_n.jpg" alt="" width="260"></a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 margin-top_3per">
+                    <a href="#"><img src="17075763_239952019800782_4640305322550886400_n.jpg" alt="" height="260"></a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 margin-top_3per">
+                    <a href="#"><img src="16906500_393106397725389_4160294520509956096_n.jpg" alt="" width="260"></a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 margin-top_3per">
+                    <a href="#"><img src="16908895_236943533442571_7449197149402693632_n.jpg" alt="" width="260"></a>
+                </div>
+            </div>
+            <button type="button" class="btn btn-default margin-top_3per">Load More...</button>
+            <button type="button" class="btn btn-primary margin-top_3per"><i class="fa fa-instagram" aria-hidden="true"></i><span class="margin-left_3per">Follow on Instagram</span></button>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="logo1.png" alt="">
+                    <ul class="margin-top_5per">
+                        <li>Наш салон: г. Киев, <br>ул. Анри Барбюса 37/1 <br>
+                            Режим работы c 10:00 - 21:00 <br>
+                            Запись по тел.</li>
+                        <li>+38 (050) 425 02 72</li>
+                        <li>+38 (067) 127 70 70</li>
+                        <li>+38 (063) 665 18 30</li>
+                    </ul>
+                    <ul class="logos margin-top_5per">
+                        <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                        <li class="margin-left_3per"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="margin-left_3per"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li class="margin-left_3per"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li class="margin-left_3per"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <h4><strong>О НАС</strong></h4>
+                    <ul class="for_us">
+                        <li><a href=""><u>О Центре перманентного макияжа</u></a></li>
+                        <li><a href=""><u>Подарочные сертификаты</u></a></li>
+                        <li><a href=""><u>Отзывы клиентов</u></a></li>
+                        <li><a href=""><u>Услуги</u></a> и <a href=""><u>Цены</u></a></li>
+                        <li><a href=""><u>Наши работы</u></a></li>
+                        <li><a href=""><u>Магазин</u></a></li>
+                        <li><a href=""><u>Доставка и оплата</u></a></li>
+                        <li><a href=""><u>Обучение</u></a></li>
+                        <li><a href=""><u>Статьи</u></a></li>
+                        <li><a href=""><u>Видео</u></a></li>
+                        <li><a href=""><u>Акции</u></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <h3>ПОДПИСАТЬСЯ НА НОВОСТИ</h3>
+                    <form>
+                       <p>Ваше имя (обязательно)</p>
+                        <input type="text" name="name" class="in-text color_black"><br>
+                        <br>
+                        <p>Ваш e-mail (обязательно)</p>
+                        <input type="email" class="form-control in-text" required>
+                        <input type="button" value="Отправить" class="color_bbcdd9 background-white padding_2_5 margin-top_5per" required>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.7/js/bootstrap.js"></script>
+  </body>
+</html>

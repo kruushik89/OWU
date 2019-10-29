@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+    <style>
+        #trg{
+            height: 200px;
+            width: 200px;
+            background: #000;
+        }
+        
+    </style>
+</head>
+<body>
+<div id="trg"></div>
+
+<button id="btn">push</button>
+
+
+
+<script>
+    $("#btn").click(function () {
+//        $("#trg").fadeToggle();
+
+
+        $("#trg").animate({width: 400, height : 500, backgroundColor : "red"},1000, "linear", function () {
+            $("#btn").animate({backgroundColor: "blue"},"2s" ,"linear" , function () {
+                $("#trg").animate({width: 200});
+            });
+        });
+    });
+
+</script>
+</body>
+</html>

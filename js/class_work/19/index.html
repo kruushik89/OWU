@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>slider</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <style>
+        #slider {
+            width: 700px;
+            height: 400px;
+            border: 2px solid red;
+            overflow: hidden;
+        }
+
+        #wraper {
+            height: 100%;
+            width: 1005px;
+            transition: 1s;
+        }
+
+        #wraper img {
+            width: 700px;
+            height: 100%;
+            float: left;
+        }
+
+        /*.doSlide500{*/
+        /*margin-left:-500px;*/
+        /*transition: 1s;*/
+        /*}*/
+
+
+    </style>
+</head>
+<body>
+<div id="slider">
+    <div id="wraper">
+        <img src="http://statcdn.fandango.com/MPX/image/NBCU_Fandango/660/727/EmilyBlunt_NTM_OG.jpg"/>
+        <img src="https://images.tenplay.com.au/~/media/TV%20Shows/The%20Wrong%20Girl/wronggirlpremierev2.jpg?mw=900"/>
+        <img src="http://statcdn.fandango.com/MPX/image/NBCU_Fandango/660/727/EmilyBlunt_NTM_OG.jpg"/>
+        <img src="https://images.tenplay.com.au/~/media/TV%20Shows/The%20Wrong%20Girl/wronggirlpremierev2.jpg?mw=900"/>
+    </div>
+</div>
+
+
+<script>
+    //    var wraper = document.getElementById("wraper");
+    //    var wraperChildren = wraper.children;
+    //    var sumWidth = 0;
+    //    for (img of wraperChildren) {
+    //        sumWidth = sumWidth + parseInt(getComputedStyle(img).width);
+    //    }
+    //    wraper.style.width = sumWidth + "px";
+    //    var shift = sumWidth / wraperChildren.length;
+    //
+    //    let intervalNum = setInterval(function () {
+    //        wraper.style.marginLeft = -shift + "px";
+    //        shift += sumWidth / wraperChildren.length;
+    //        if (shift >= sumWidth) shift = 0;
+    //
+    //    }, 2000);
+    //console.log(sumWidth);
+    //console.log(wraperChildren);
+    //console.log(wraper);
+
+    var wraper = $("wraper");
+    var wraperChildren = wraper.children();
+    var sumWidth = 0;
+    wraperChildren.each(function () {
+        sumWidth = sumWidth + $(this).width();
+    });
+    wraper.width(sumWidth);
+    var shift = sumWidth / wraperChildren.length;
+
+
+
+
+</script>
+</body>
+</html>

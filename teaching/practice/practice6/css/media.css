@@ -1,0 +1,93 @@
+@media (max-width: 920px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .container_btn {
+        display: block;
+        left: 80%;
+    }
+
+    .nav_menu {
+        display: none;
+    }
+
+    .services_item ul {
+        flex-wrap: wrap;
+    }
+
+    .services_item ul li {
+        margin-bottom: 25px;
+    }
+
+    .header .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header_top {
+        flex-direction: column;
+    }
+
+    main #brands .brands_logo {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main #brands .brands_logo .brand_img {
+        margin-left: 25px;
+        /*margin-top: 15px;*/
+    }
+
+    main #brands .brands_title {
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+
+    main #portfolio .portfolio_menu ul {
+        justify-content: center;
+    }
+
+    main #portfolio .portfolio_menu ul li a {
+        margin-left: 10px;
+    }
+
+    main #portfolio .portfolio_menu {
+        width: 520px;
+    }
+
+    #footer .footer_top {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .footer_menu {
+        margin-top: 10px;
+    }
+    #footer .footer_main .footer_contact{
+        display: none;
+    }
+    #footer .footer_main .footer_form .header_form{
+        flex-direction: column;
+    }
+    #footer .footer_main .footer_form .header_form .name_input, #footer .footer_main .footer_form .header_form .subject_input {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #footer .footer_main .footer_form #form .foot_form {
+        width: 90%;
+        margin: 15px auto 0;
+    }
+
+    #footer .footer_main .footer_form #form .foot_form textarea {
+        width: 96%;
+    }
+    .footer_button{
+        width: 50%;
+        margin: 0 auto;
+    }
+    #footer .footer_main .footer_form{
+        padding-bottom: 30px;
+    }
+}

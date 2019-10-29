@@ -1,0 +1,71 @@
+.nav{
+    width: 620px;
+    /*background: orange;*/
+    margin: 0 auto
+}
+
+.nav li{
+    list-style: none;
+    display: inline-block
+}
+
+.nav a{
+    display: block;
+    width: 100px;
+    background: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0
+}
+
+.nav a:hover{
+    background: green;
+    color: aqua
+}
+
+.menu li{
+    list-style: none;
+    margin-top: 2px
+}
+
+.menu a{
+    display: block;
+    width: 200px;
+    padding: 3px 0;
+    background: black;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+    text-decoration: none    
+}
+
+/*.menu a:hover{
+    width: 400px;
+}*/
+
+.menu li:first-child a:hover{
+    background: red
+}
+
+.menu li:nth-child(2n) a:hover{
+    background: violet
+}
+
+.menu li:last-child a:hover{
+    background: green
+}
+
+.nav ul{
+    display: none
+}
+
+.nav li:hover ul{
+    display: block
+}
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>objects2</title>
+</head>
+<body>
+<form action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+
+<script>
+    var HumanConstructor = function (name, age) {
+        this.name = name;
+        this.age = age;
+        this.introduce = function (asd) {
+            console.log("hello", "my name is - ", this.name, " and my age is - ", this.age, asd);
+        }
+    }
+
+    var human = new HumanConstructor("vasya", 22);
+    human.introduce("qweqwe123");
+    var human2 = new HumanConstructor("petya", 34);
+    human2.introduce("123qe");
+
+    human.introduce.call(human2, "qweqweqweq");
+    human.introduce.apply(human2, ["asdasd", "qweqwe"]);
+
+
+    var Student = function (name, age, grade) {
+        HumanConstructor.apply(this, arguments);
+        this.grade = grade;
+    };
+
+
+    var s1 = new Student("asdas", 12313, "2k");
+    console.log(s1);
+
+    //Animal -> HOrse -> unicorn
+    //Book -> magazin-> maxxxim
+    //Car->sportCar
+    //    Car-> offRoadCAr
+
+    //computer->notebook
+//      |
+//    desktop
+//      |
+//    superComputer
+</script>
+</body>
+</html>

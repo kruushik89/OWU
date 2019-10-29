@@ -1,0 +1,8 @@
+<?php if(have_posts() ): query_posts('p=5');
+                    while(have_posts() ): the_post(); ?>
+	                    <?php the_title(); ?>
+	                    <?php the_content();?>
+	                    <?php the_post_thumbnail(); ?>
+                    <? endwhile; endif; wp_reset_query(); ?>
+
+

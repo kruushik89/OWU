@@ -1,0 +1,138 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .navi{
+        flex-direction: column;
+    }
+
+    .nav{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .logo{
+        margin: 0 auto;
+    }
+
+    .nav > li > a{
+        padding: 0;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #btn-menu{
+        display: block;
+        position: absolute;
+        left: 80%;
+        top: 15px;
+    }
+
+    .nav{
+        margin: 0;
+        width: 100%;
+        display: none;
+    }
+
+    .nav li{
+        float: none;
+        margin-right: 0;
+        border: 1px solid;
+    }
+
+    .nav > li > a{
+        line-height: 30px;
+        padding-left: 30px;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    #home{
+        height: 365px;
+        -webkit-background-size: auto;
+        background-size: auto;
+        padding-top: 0;
+    }
+
+    #home h1{
+        font-size: 30px;
+    }
+
+    #home h3{
+        font-size: 24px;
+        padding-top: 85px;
+    }
+
+    .montaj, .tire, .remont{
+        background-color: #f7f7f7;
+        background-position: 50% 5%;
+        padding-bottom: 5px;
+    }
+
+    .services-item{
+        padding-top: 0;
+    }
+
+    #aboutUs .btn {
+        margin-left: 27%;
+    }
+
+    /*footer*/
+    footer .box{
+        padding: 50px 0;
+    }
+
+    .ourContact ul li:first-child, .ourContact ul li:last-child{
+        padding-top: 10px;
+    }
+
+    .ourContact ul{
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,125 @@
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+    ul.nav-main{
+        left: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    ul.nav-main{
+        left: 0;
+    }
+
+    ul.nav-main li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px){
+    #btn-menu{
+        display: block;
+        left: 10%;
+    }
+
+    ul.nav-main{
+        display: none;
+        left: 0;
+        top: 85px;
+        width: 100%;
+        background: #0B0B0B
+    }
+
+    ul.nav-main li{
+        float: none;
+    }
+
+    .navbar-brand img{
+        position: absolute;
+        left: 65%;
+    }
+
+    ul.nav-sub{
+        left: 15%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+}
+
+@media screen and (min-width: 650px) and (max-width: 768px){
+
+}
+
+@media (max-width: 650px){
+    #contact{
+        padding:10px 0 10px;
+    }
+
+    .navbar-brand img{
+        position: absolute;
+        left: 40%;
+    }
+
+    ul.nav-sub{
+        left: 42%;
+    }
+
+    #aboutUs .col-xs-6{
+        width: 100%;
+    }
+
+    #aboutUs p{
+        font-size: 13px;
+    }
+
+    #masterClass{
+        font-size: 13px;
+    }
+
+    footer .logo1, footer .logo2{
+        display: none;
+    }
+
+    footer .text{
+        margin-left: 15%;
+    }
+
+    .fa-2x {
+        font-size: 1em;
+    }
+
+    .form-btn{
+        top: 500px;
+        left: 27%;
+    }
+
+    .form-contact{
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .col-xs-6{
+        width: 100%;
+    }
+
+    .video iframe{
+        width: 300px;
+        height: 160px;
+    }
+
+    #aboutUs img{
+        width: 100%;
+    }
+
+    header{
+        padding-bottom: 25%;
+    }
+
+    header img{
+        height: 280px !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1170px){
+
+}

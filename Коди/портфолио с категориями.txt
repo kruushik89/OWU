@@ -1,0 +1,147 @@
+html
+--------------------------------------------------------------------------
+
+<section id="portfolio" class="s_portfolio bg_dark">
+
+    <div class="section_top">
+        <h2>Портфолио</h2>
+        <div class="about_discr_wrap">
+            <div class="about_discr">
+                Мои последние роботы
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="filter_div controls">
+                    <ul>
+                        <li class="filter active" data-filter="all">Все работы</li>
+                        <li class="filter" data-filter=".category_1">Сайты</li>
+                        <li class="filter" data-filter=".category_2">Айдентика</li>
+                        <li class="filter" data-filter=".category_3">Логотипы</li>
+                    </ul>
+                </div>
+                <div id="portfolio_grid">
+                    <div class="mix col-md-3 portfolio_item category_1">
+                        12
+                    </div>
+                    <div class="mix col-md-3 portfolio_item category_1">
+                        12
+                    </div>
+                    <div class="mix col-md-3 portfolio_item category_1">
+                        12
+                    </div>
+                    <div class="mix col-md-3 portfolio_item category_2">
+                        12
+                    </div>
+                    <div class="mix col-md-3 portfolio_item category_2">
+                        12
+                    </div>
+                    <div class="mix col-md-3 portfolio_item category_2">
+                        12
+                    </div>
+                    <div class="mix col-md-3 portfolio_item category_3">
+                        12
+                    </div>
+                    <div class="mix col-md-3 portfolio_item category_3">
+                        12
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+**************************************************************************
+**************************************************************************
+css
+--------------------------------------------------------------------------
+
+.s_portfolio ul,
+.s_portfolio li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.s_portfolio li {
+  display: inline-block;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 2;
+}
+.s_portfolio ul {
+  margin-bottom: 50px;
+}
+
+.portfolio_item {
+  display: none;
+}
+
+**************************************************************************
+**************************************************************************
+
+js
+--------------------------------------------------------------------------
+
+$(document).ready(function () {
+    $("#portfolio_grid").mixItUp();
+
+    //переключать категории в портфолио
+    $(".s_portfolio li").click(function () {
+        $(".s_portfolio li").removeClass("active");
+        $(this).addClass("active");
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

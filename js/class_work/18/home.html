@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>objects home</title>
+</head>
+<body>
+<script>
+
+
+    //    var CARconstructor = function (model,maxSpeed) {
+    //        this.model = model;
+    //        this.maxSpeed = maxSpeed;
+    //
+    //    }
+
+    var sportCar = {
+        model: 'ferrari',
+        maxSpeed: 400,
+        tapkuVpol: function () {
+            console.log("нажми на своей ", this.model, " тапку в пол до ", this.maxSpeed);
+        }
+    };
+
+    sportCar.tapkuVpol();
+
+
+    var familyCar = {
+        model: 'citroen berlingo',
+        maxSpeed: 140
+    };
+
+
+    sportCar.tapkuVpol.call(familyCar);
+
+
+
+    var bookConstructor = function (name, namberOfPage, price) {
+        this.bookName = name;
+        this.bookPage = namberOfPage + " сторінок";
+        this.bookPrice = price + "грн.";
+        this.aboutBook = function (someText) {
+            console.log('я написав книгу, під назвою ', this.bookName, ' яка містить в собі ', this.bookPage, someText);
+        }
+    }
+
+    var book = new bookConstructor('Лабіринт', 550);
+
+    //    book.aboutBook.call(book, ' в яких міститься один бред!!!');
+    book.aboutBook(' в яких міститься один бред!!!');
+
+    var eralash = new bookConstructor("eralash", 50, 25);
+
+    var maxim = {
+        bookName: 'maxim magazin',
+        bookPage: 100
+    };
+
+    eralash.aboutBook.call(maxim, "sexy journal");
+
+
+    var MagazinConstructor = function (name, namberOfPages, price, style, type, tiraj) {
+//        this.bookName = name;
+//        this.bookPage = namberOfPages;
+//        this.bookPrice = price;
+
+//        bookConstructor.call(this, name, namberOfPages, price);
+//        bookConstructor.apply(this,[name,namberOfPages,price] );
+        bookConstructor.apply(this, arguments);
+        this.bookStyle = style;
+        this.bookType = type;
+        this.bookTiraj = tiraj;
+
+    }
+    
+    var carConstructor = function (name, color, speed, price) {
+        this.carName = name;
+        this.colorCar = color;
+        this.speedCar = speed;
+        this.priceCar = price + '$';
+        console.log('я купив собі ', this.carName, " ", this.colorCar, " кольору, вартість якої складає ", this.priceCar)
+    }
+
+    var sportCar2 = new carConstructor('Lamborgini', 'біла', 390, 250000);
+
+
+    var roadCar = new carConstructor('Jeep', 'чорна', 200, 95000);
+
+
+
+    var ComputerConstructor = function (pc, name, ozu, proc, memory) {
+        this.pc = pc;
+        this.pcName = name;
+        this.pcOzu = ozu + ' gb';
+        this.pcProc = proc + ' GHz';
+        this.pcMemory = memory + ' mb';
+        this.aboutPc = function (text) {
+            console.log("купив ", this.pc, " називається ", this.pcName, ' з процесором ', this.pcProc, text);
+        }
+    }
+
+//    var notebook = new computerConstructor('notebook', 'Lenovo', 8, 2.6, 500);
+//    notebook.aboutPc(' дуже потужний');
+//
+//    var deskTop = {
+//        pc: 'PC',
+//        pcName: 'htc',
+//        pcProc: 3.1 + 'GHz'
+//    };
+//
+//    notebook.aboutPc.call(deskTop, ' дуже потужний');
+//
+//    var superComputer = new computerConstructor('PC', 'Samsung', 16, 4.5, 1500);
+//    superComputer.aboutPc('п' + 'росто шедевр');
+
+    
+    var NotebookConstructor = function (pc,name,ozu,proc,memory,type) {
+        ComputerConstructor.apply(this, arguments);
+        this.ty = type;
+        
+    }
+
+    var notebook = new NotebookConstructor("pc", "intel", 32, "i7", 1000, "fashionBoook");
+    console.log(notebook);
+    notebook.aboutPc("jir");
+    
+    var SuperComputerConstructor = function (pc, name, ozu, proc, memory, color) {
+        ComputerConstructor.apply(this, arguments);
+        this.colorPC = color;
+    }
+
+    var superPC = new SuperComputerConstructor('pc', 'mci', '16', 'i5', 1000, 'huinya', 'red');
+    console.log(superPC);
+    superPC.aboutPc();
+
+    var MegaConstructor = function (pc, name, ozu, proc, memory, color, fan) {
+        SuperComputerConstructor.apply(this, arguments);
+        this.fan = fan;
+    }
+
+    var somePC = {
+        pc: 'PC',
+        pcName: 'intel'
+    };
+
+    notebook.aboutPc.apply(somePC);
+
+
+
+
+    /*----------------*/
+
+    ComputerConstructor.prototype.getProc = function () {
+        console.log(this.pcProc);
+    }
+    var pc1 = new ComputerConstructor("asd","qewqe" ,123,123);
+    var pc2 = new ComputerConstructor("qwe","qweqwe",23,"345");
+//    pc1.getProc = function () {
+//        console.log(this.pcProc);
+//    };
+//
+    pc1.getProc();
+    pc2.getProc();
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+
+</script>
+</body>
+</html>

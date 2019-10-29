@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>objects</title>
+</head>
+<body>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<script>
+    var o = {a: 1, b: 2, c: 'hello'};
+    console.log(o['a']);
+    console.log(o.b);
+    console.log(o.c);
+
+    //    var message = {name: prompt("name?"), greeting: prompt("greeting?")};
+    //    console.log(message);
+
+    function greetingWithSomeone(obj) {
+        console.log(obj.who + " " + obj.msg);
+    }
+    var x1 = {
+        who: "serj",
+        msg: 'hello!',
+        run: function () {
+            console.log(this.who + " is runing");
+        }
+    };
+    var x2 = {
+        who: "sanya",
+        msg: 'bye!',
+        run : function () {
+            console.log(this.who + " is running");
+        }
+    };
+    greetingWithSomeone(x2);
+    x1.run();
+
+    x2.run();
+
+    var div = document.getElementsByTagName("div")[0];
+
+    var styler = {
+
+
+        addWidth : function (whom, width) {
+            whom.style.width = width + 'px';
+        },
+        addHeight : function (whom, height) {
+            whom.style.height= height + 'px';
+
+        },
+        addColor : function (whom, bg) {
+            whom.style.background = bg;
+
+        },
+        addMarginleft : function (whom, margin) {
+            whom.style.marginLeft = margin + 'px';
+        },
+        addMargin_top: function (whom, marginTop) {
+            whom.style.marginTop = marginTop + 'px'
+        },
+        addText: function (whom, text) {
+            whom.innerHTML = 'hello world';
+        }
+    }
+
+    styler.addWidth(div, 200);
+    styler.addHeight(div, 200);
+    styler.addColor(div, 'red');
+    styler.addMarginleft(div, 150);
+    styler.addText(div);
+
+
+    var div2 = document.getElementsByTagName('div')[1];
+    styler.addWidth(div2, 300);
+    styler.addHeight(div2, 300);
+    styler.addColor(div2, 'green');
+    styler.addMargin_top(div2, 50);
+
+    var div3 = document.getElementsByTagName('div')[2];
+    styler.addWidth(div3, 500);
+    styler.addHeight(div3, 200);
+    styler.addColor(div3, 'brown');
+
+    var divAgain = document.getElementsByTagName('div')[0];
+    div.style.paddingLeft = '10px';
+
+
+    var style2 = {
+        element: null,
+        addWidth: function (w) {
+            this.element.style.width = w + 'px';
+        },
+        addHeight : function (h) {
+            this.element.style.height = h + 'px';
+        },
+        addColor : function (c) {
+            this.element.style.background = c;
+        }
+
+
+
+    };
+
+    style2.element = document.getElementsByTagName('div')[0];
+
+
+
+    style2.addWidth(400);
+    style2.addHeight(600);
+    style2.addColor('blue');
+
+    var style3 = {
+        element: null,
+        addWidth: function (w) {
+            this.element.style.width = w + 'px';
+        },
+        addHeight: function (h) {
+            this.element.style.height = h + 'px'
+        },
+        addMarginLeft: function (ml) {
+            this.element.style.marginLeft = ml + 'px';
+        },
+    }
+
+    style3.element = document.getElementsByTagName('div')[3];
+    style3.addMarginLeft(150);
+
+    style2.element = document.getElementsByTagName('div')[3];
+    style3.addWidth(100);
+    style3.addHeight(200);
+    style2.addColor('yellow');
+
+
+    var composit = {
+        one: styler,
+        two: style2,
+        three: style3,
+        four: [1, 2, 3, 4],
+        five:"vasya petya",
+        six : 123
+    };
+    
+    var mas = composit.four;
+    console.log(mas);
+
+
+</script>
+</body>
+</html>

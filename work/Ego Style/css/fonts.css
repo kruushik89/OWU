@@ -1,0 +1,61 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Vesna";
+	src: url("../fonts/Vesna/Vesna.eot");
+	src: url("../fonts/Vesna/Vesna.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/Vesna/Vesna.woff") format("woff"),
+	url("../fonts/Vesna/Vesna.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+/*Berenis*/
+@font-face {
+			font-family: "BerenisADFProRegular";
+			src: url("../fonts/BerenisADFProRegular/BerenisADFProRegular.eot");
+			src: url("../fonts/BerenisADFProRegular/BerenisADFProRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BerenisADFProRegular/BerenisADFProRegular.woff") format("woff"),
+			url("../fonts/BerenisADFProRegular/BerenisADFProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BerenisADFProBold";
+			src: url("../fonts/BerenisADFProBold/BerenisADFProBold.eot");
+			src: url("../fonts/BerenisADFProBold/BerenisADFProBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BerenisADFProBold/BerenisADFProBold.woff") format("woff"),
+			url("../fonts/BerenisADFProBold/BerenisADFProBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BerenisADFProItalic";
+			src: url("../fonts/BerenisADFProItalic/BerenisADFProItalic.eot");
+			src: url("../fonts/BerenisADFProItalic/BerenisADFProItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BerenisADFProItalic/BerenisADFProItalic.woff") format("woff"),
+			url("../fonts/BerenisADFProItalic/BerenisADFProItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BerenisADFProBoldItalic";
+			src: url("../fonts/BerenisADFProBoldItalic/BerenisADFProBoldItalic.eot");
+			src: url("../fonts/BerenisADFProBoldItalic/BerenisADFProBoldItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BerenisADFProBoldItalic/BerenisADFProBoldItalic.woff") format("woff"),
+			url("../fonts/BerenisADFProBoldItalic/BerenisADFProBoldItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}

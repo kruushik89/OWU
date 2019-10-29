@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<h1>hello</h1>
+<h1>hi!</h1>
+<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias, assumenda aut beatae dicta dolor, ducimus error
+    eveniet hic laborum minima molestias, porro quod ratione recusandae similique sint suscipit voluptatibus?
+</div>
+<div id="target"> target</div>
+<div class="point">point 1</div>
+<div class="point">point 2</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque debitis deleniti deserunt excepturi facere fuga
+    harum iste iure minima natus nostrum nulla similique temporibus tenetur unde ut, velit voluptate?</p>
+<span>span</span>
+<span>span</span>
+<span>span</span>
+
+<table>
+    <tr id="xxx">
+        <td>cell01</td>
+        <td>cell02</td>
+        <td>cell03</td>
+    </tr>
+    <tr>
+        <td>cell01</td>
+        <td>cell02</td>
+        <td>cell03</td>
+    </tr>
+</table>
+
+
+<script>
+//    console.log($("table tr:first-child td:first-child"));
+
+    var tdFirstInFirst = $("table tr:first-child td:first-child");
+    tdFirstInFirst
+        .css("background", "red")
+        .css("color", "yellow")
+        .width("200px")
+        .height("50px");
+
+var tdSecond = $("table tr:nth-child(2) td:nth-child(3)");
+tdSecond
+    .css("background", "brown")
+    .css("color", "white")
+    .width("150px")
+    .height("50px");
+
+var color = {
+    color: "black",
+    padding: "15px"
+};
+
+$("table td:nth-child(3)").css(color);
+//    console.log(tdFirstInFirst.width());
+//    console.log(tdFirstInFirst.height());
+//    console.log(tdFirstInFirst.css("color"));
+var paragraf = {
+    background: "black",
+    color: "white"
+};
+$("p").css(paragraf);
+$("div").css(paragraf);
+
+
+    var options = {
+        marginTop: "40px",
+        backgroundColor: "blue"
+    }
+    $("h1").css(options);
+
+//    console.log($("h1").css(["width", "height"]));
+
+    $("h1").css("font-size", function () {
+        if ($(this).text().includes("hello"))
+            return 100;
+    });
+
+    $(".point").css({
+        background: function () {
+            if ($(this).text().includes("1")) return " red";
+            else return "blue";
+        },
+        color: function () {
+            if ($(this)) return "yellow";
+        }
+    })
+
+//    console.log();
+    $(".point").filter(":eq(1)").height(200);
+    
+    $("span").each(function () {
+        console.log(this);
+        $(this).css("color", "red");
+    })
+</script>
+</body>
+</html>

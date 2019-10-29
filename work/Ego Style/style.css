@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*прижимает футер к низу экрана*/
+html, body{
+    height: 100%;
+}
+
+.wrapper_my{
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+/*end прижимает футер к низу экрана*/
+
+.main-content{
+    flex: 1; /*flex: 1; прижимает футер к низу экрана*/
+}
+
+body{
+    font-size: 16px;
+    font-family: 'BerenisADFProItalic';
+}
+
+a{
+    text-decoration: none !important;
+}
+
+h2{
+    font-weight: bold;
+}
+
+header{
+    background-color: black;
+    border-top: 3px solid white;
+    /*border-bottom: 3px solid white;*/
+}
+
+/*header img{*/
+    /*width: 100%;*/
+/*}*/
+
+.img-container {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*menu*/
+
+/*drop down menu*/
+.header-menu{
+    background: #ededef;
+}
+#navigation {
+    margin:0;
+    padding: 0;
+    clear:both;
+    width:100%;
+    height:135px;
+    background: #0B0B0B  repeat-x left top;
+}
+ul.nav-main,
+ul.nav-main li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.nav-main {
+    position: relative;
+    top: 45px;
+    z-index: 1000;
+    left: 585px;
+    float: left;
+}
+ul.nav-main li:hover > ul {
+    visibility: visible;
+}
+ul.nav-main li.hover,
+ul.nav-main li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: pointer;
+    background: url(img/dropMenu/dropdown-bg-hover.gif) repeat-x left top;
+}
+ul.nav-main li {
+    float:left;
+    display:block;
+    height: 51px;
+    color: #999;
+    font: 53px Arial, Helvetica, sans-serif;
+    background: url(img/dropMenu/separator.gif) no-repeat right center;
+}
+ul.nav-main li a {
+    display:block;
+    padding: 16px 16px 0 16px;
+    height: 35px;
+    color: #999;
+    font-family: 'BerenisADFProItalic';
+    font-size: 18px;
+    text-transform: capitalize;
+}
+ul.nav-main li a:hover {
+    color:#D6D6D6;
+}
+ul.nav-main *.list {
+    padding-right: 22px;
+    background: url(img/dropMenu/navigation-arrow.gif) no-repeat right top;
+}
+ul.nav-sub {
+    visibility: hidden;
+    position: absolute;
+    padding:10px;
+    top: 48px;
+    /*left: 0;*/
+    z-index: 598;
+    background: #353535 repeat-x left top;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+ul.nav-sub li {
+    list-style:none;
+    display:block;
+    padding: 0;
+    height: 27px;
+    float: none;
+    width:145px;
+    border-bottom: 1px solid #5a5a5a;
+    background: none;
+}
+ul.nav-sub li a {
+    list-style:none;
+    display:block;
+    padding: 6px 5px 6px 5px;
+    height: 15px;
+    float: none;
+    width:145px;
+    background: none;
+    font: 14px 'BerenisADFProItalic' !important;
+}
+/*end drop down*/
+
+/*logo*/
+.navbar-brand img{
+    height: 90px;
+}
+
+.logo1{
+    margin-top: 10px;
+}
+
+.logo1 img{
+    width: 100%;
+}
+
+.logo2 img{
+    width: 100%;
+}
+
+
+.logo2{
+    margin-top: 10px;
+}
+
+/*end logo*/
+
+/*кнопка при зменшенні екрану яка показує меню*/
+#btn-menu{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 80%;
+    color: #999;
+}
+
+#btn-menu:hover{
+    color: #D6D6D6;
+}
+
+/*закінчилась кнопка при зменшенні екрану яка показує меню*/
+
+/*slide*/
+#slide{
+    padding: 5% 0;
+}
+
+#slide1, #slide2, #slide3, #slide4{
+    border: 5px solid white;
+}
+
+#slide1 img, #slide2 img, #slide3 img, #slide4 img{
+    height: 766px;
+}
+
+/*aboutUs*/
+#aboutUs{
+    background-image: url(img/about_me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 5% 0;
+    /*background-color: #ededef;*/
+}
+
+#aboutUs h2{
+    text-align: center;
+}
+
+#aboutUs p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+#aboutUs img{
+    width: 50%;
+    padding: 0 2% 2% 0;
+}
+
+#aboutUs .background-white{
+    opacity: 0.7;
+}
+
+#aboutUs span{
+    float: right;
+}
+
+.text{
+     display: block;
+ }
+/*end aboutUs*/
+
+/*курси макіяж*/
+#makeupCourses {
+    padding: 10px 0;
+    text-align: justify;
+}
+
+#makeupCourses h2{
+    text-align: center;
+}
+
+#qualification h3{
+    text-align: center;
+}
+/*кінець курси макіяж*/
+
+/*курс нарощення вій*/
+.parallax-window, .parallax-window2, .parallax-window3, .parallax-window4, .parallax-window5{
+    min-height: 400px;
+    background: transparent;
+}
+
+.info{
+    line-height: 30px;
+    padding: 15px 40px;
+}
+
+#eyelashesCoursesUniversal{
+    flex: 1; /*flex: 1; прижимает футер к низу экрана*/
+}
+
+/*кінець курс нарощення вій*/
+
+
+
+
+
+/*masterClass*/
+#masterClass{
+    padding: 5% 0;
+}
+
+#masterClass h2{
+    text-align: center;
+}
+
+#masterClass{
+    text-align: justify;
+    padding: 0 5%;
+}
+/*end masterClass*/
+
+/*video*/
+#video{
+    height: 80vh;
+}
+
+
+/*footer*/
+footer{
+    background-color: black;
+    height: 179px;
+    padding: 0 5%;
+    color: #999;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 10px;
+    color: white;
+}
+
+footer a{
+    color: #999;
+}
+
+footer a:hover{
+    color: #D6D6D6;
+}
+
+footer .text{
+    margin-top: 25px;
+}
+/*end footer*/
+
+
+
+/*contact*/
+#contact{
+    padding:10px 0 10px;
+
+}
+
+.contact-text{
+    margin:45px auto;
+}
+
+.mail-message-area{
+    width:100%;
+    padding:0 15px;
+}
+
+.mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+}
+
+.not-visible-message{
+    height:0px;
+    opacity: 0;
+}
+
+.visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+}
+
+/* Input Styles */
+
+.form{
+    width: 100%;
+    padding: 15px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.form:hover{
+    border:1px solid #8BC3A3;
+}
+
+.form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+}
+
+.textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+/* Generic Button Styles */
+
+.button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+
+.button:hover{
+    background:#8BC3A3;
+    color:white;
+}
+
+/* Send Button Styles */
+
+.form-btn{
+    width:150px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#fff;
+    background:#8BC3A3;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+
+.form-contact{
+    margin-top: 100px;
+    margin-left: 25%;
+}
+
+
+.form-btn:hover{
+    background:#111;
+    color: white;
+    border:none;
+}
+
+.form-btn:active{
+    opacity: 0.9;
+}
+center{
+    margin-top:330px;
+}
+input {
+    position: relative;
+    z-index: 9999;
+}
+/*end contact*/
+
+/*up button*/
+.up_button i{
+    position: fixed;
+    right: 25px;
+    bottom: 40px;
+    opacity: 0.5;
+    color: darkgray;
+    display: none;
+}
+
+.up_button i:hover{
+    opacity: 1;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+/*end up button*/
+
+
+
+
+
+
+.background-white{
+    background-color: white;
+}
+
+.background-f6f2f2{
+    background-color: #f6f2f2;
+}
+
+/* /элемент сетки */
+h1 {
+    text-align: center;
+    margin: 0 0 50px
+}
+/*end photo gallery*/
+
+.text-justify{
+    text-align: justify;
+}
+
+.float-left{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.padding0_25px{
+    padding: 0 25px;
+}
+
+
+
+
+
+
+
+/*.owl-carousel img {*/
+/*width: 700px;*/
+/*}*/
+
+#hero {
+    width: 100vw;
+    position: relative;
+    background-color: #888;
+}
+
+.slider-holder {
+    position: relative;
+    width: 100%;
+    display: block;
+    max-height: 100vh;
+    height: 100vh;
+    padding: 40px 0;
+}
+
+.bg-drop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0.3;
+    background-size: cover;
+    background-position: center center;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.owl-carousel {
+    height: 100%;
+}
+
+.owl-stage-outer, .owl-stage {
+    height: 100%;
+}
+
+.owl-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0.9);
+    opacity: 0.2;
+    /*transition: opasity 0.15s ease-in-out, transform 0.5s ease-in-out;*/
+}
+
+.owl-item.center {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.owl-item > div {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.controls {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    height: auto;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.arrow {
+    position: absolute;
+    transform: translateY(-50%) scale(1);
+    transition: transform 0.1s ease-out;
+}
+
+.arrow:hover {
+    transform: translateY(-50%) scale(1.1);
+}
+
+.arrow:active {
+    transform: translateY(-50%) scale(1);
+}
+
+.arrow #left {
+    left: 10px;
+    pointer-events: auto;
+}
+
+.arrow #right {
+    right: 10px;
+    pointer-events: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

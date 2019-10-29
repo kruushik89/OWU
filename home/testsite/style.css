@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+  font-size: 25px;
+  width: 150px;
+  background-color: #0000ff;
+}
+
+h1:hover{
+  width: 500px;
+  transition: 5s;
+}
+
+img:hover{
+  width: 150%;
+}
+
+
+

@@ -1,0 +1,65 @@
+.speed{
+    width: 498px;
+    height: 404px;
+    background-image: url(../img/speed1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    margin: 20px auto;
+}
+.strelka-block{
+width: 246px;
+height: 246px;
+position: absolute;
+bottom: 40px;
+left: 130px;
+background: url(../img/strelka1.png) no-repeat;
+background-position: 26px 101px;
+transition: 0.05s;
+}
+.strelka{
+background: #000;
+width: 10px;
+height: 10px;
+position: absolute;
+left: 118px;
+top: 118px;
+border-radius: 10px
+}
+.ekran{
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    bottom: 20px;
+    left: 180px;
+    border-radius: 20px 20px 0 0;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;;
+    background: rgb(50, 127, 146);
+}
+.qaz-tormoz{
+width: 250px;
+display: flex;
+justify-content: center;
+background: rgb(243, 238, 238);
+padding: 30px 30px 10px 30px;
+margin: 60px auto 0 auto;
+border-radius: 20px 20px 0 0;
+}
+.qaz{
+    width: 50px;
+    height: 100px;
+    background: url(../img/qaz.png) no-repeat;
+    background-size: contain;
+    margin-left:30px;
+    transition: 0.1s;
+}
+.tormoz{
+    width: 100px;
+    height: 70px;
+    background: url(../img/tormoz.png) no-repeat;
+    background-size: contain;
+    transition: 0.1s;
+}

@@ -1,0 +1,55 @@
+table{
+    margin: 0 auto;
+}
+
+/*.mouns{
+    width: 1000px;
+    background: #DCDCDC
+  
+}
+
+.b-pink{
+    background: #FFFFE0
+}
+
+.b-gray{
+    background: gray
+}
+
+.b-coral{
+    background: #FF7F50
+}
+
+.b-tomato{
+    background: #FF6347
+}
+
+.t_align-left{
+    text-align: left
+}
+
+.t_align-right{
+    text-align: right
+}
+*/
+
+th{
+    width: 100px
+}
+
+th:nth-child(6){
+    background: aqua
+}
+
+th:nth-child(7){
+    background: red
+}
+
+tr:nth-child(2) th:nth-child(6){
+    background: gray
+}
+
+tr:nth-child(odd) th:nth-child(7){
+    background: black;
+    color: white
+}

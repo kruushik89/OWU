@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    margin: 0 auto;
+    width: 500px;
+}
+
+table{
+
+    width: 100%;
+    border-spacing: 0;
+}
+
+h1{
+    text-align: center;
+}
+h1:hover{
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    font-size: 50px;
+    transition: 2s;
+}
+
+table{
+    font-size: 25px;
+    text-align: center;
+}
+
+table td{
+    border: 1px solid;
+    padding: 3px;
+}
+thead{
+    background-color: #A4C2F4;
+}
+thead:hover{
+    background-color: #3D76DA;
+    cursor: pointer;
+}
+tbody tr:nth-child(2n+1){
+    background-color: #C9D9F7;
+}
+tbody tr:nth-child(2n+2){
+    background-color: #3D76DA;
+}

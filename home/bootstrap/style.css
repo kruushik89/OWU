@@ -1,0 +1,27 @@
+.container .row{
+    margin-top: 50px;
+  
+}
+
+
+
+
+/*спойлер*/
+a.spoiler:after{
+    content: " [-]"
+}
+
+
+a.spoiler.collapsed:after{
+    content: " [+]"
+}
+
+
+
+
+
+
+
+
+
+

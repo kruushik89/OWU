@@ -1,0 +1,17 @@
+table{
+    border: 5px solid;
+    padding: 10px;
+}
+
+thead td{
+    max-width: 100%;
+}
+
+table td{
+    border: 1px solid;
+}
+
+img{
+    margin-top: 50px;
+    width: 400px;
+}

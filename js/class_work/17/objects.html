@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>objects</title>
+</head>
+<body>
+
+<script>
+
+    var object = {
+        a: 10,
+        b: 20,
+        c: 'hello',
+        d: function () {
+            console.log("foobar");
+        }
+    };
+
+    console.log(object.a);
+    console.log(object['a']);
+
+
+    var objectForArrays = {
+        min: function min(array) {
+            var res = array[0];
+            for (var i = 0; i < array.length; i++) {
+                if (array[i] < res) {
+                    res = array[i];
+                }
+
+            }
+            return res;
+        },
+        max: function max(array) {
+            var res = array[0];
+            for (var i = 0; i < array.length; i++) {
+                if (array[i] > res) res = array[i];
+            }
+            return res;
+        }
+
+    }
+
+
+    console.log(objectForArrays.min([1, 4, 7]));
+
+
+    var natasha = {
+        name: "natasha",
+        age: 30,
+        height: 152,
+        manikur: function () {
+            console.log("do manikur sebe");
+        }
+    };
+    var sanek = {
+        name: "sasha",
+        age: 27,
+        height: 180,
+        mass: 72,
+        training : function () {
+            console.log("10 bench press and 20 squat");
+        },
+        wife: natasha
+
+    };
+
+    
+    console.log(sanek.wife.name);
+
+    sanek.training();
+    sanek.wife.manikur();
+
+
+    /*----------------*/
+
+    function gadalka(loh) {
+        console.log(
+            "Здравствуй дорогой " + loh.name +
+                ", дай позолочу тебе ручку, вижу тебе " +loh.age + " лет"
+
+        );
+
+    }
+
+
+    var vasya = {name: "vsaya"};
+    gadalka(vasya);
+
+
+
+
+
+    function gadalka2(name, age) {
+        console.log(
+            "Здравствуй дорогой " + name +
+            ", дай позолочу тебе ручку, вижу тебе " +age + " лет"
+
+        );
+    }
+    gadalka2("petya", 30);
+
+    var myFavoriteStyles = {
+        width: 200,
+        height : 200,
+        background : "red",
+        foo : function () {
+            console.log(this.background);
+        }
+    };
+    
+    var MyFavoriteStylesConstructor = function (width,height,background) {
+        this.shirina = width + 'px';
+        this.visota = height + "px";
+        this.cvet = background;
+    }
+
+    var stylesOfSerj = new MyFavoriteStylesConstructor(200,200,"red");
+    var stylesOfOleg = new MyFavoriteStylesConstructor(50,200,"#333");
+
+    alert(stylesOfSerj.cvet);
+//    создать шаблон для автомобиля
+    // создать шаблон для животного
+    // для компьютера
+    // телефона
+    // в каждом шаблоне минимум 5 параметров
+    // для каждого шаблона сделать 10 объектов
+
+</script>
+</body>
+</html>
